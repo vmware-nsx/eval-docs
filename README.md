@@ -27,19 +27,23 @@ This document agenda is:
 
 
 ## Pre-Requiste
-- Compute
-  - vCenter
-    - Version: 
-    - Download link:
-    - Number: 1
 
-  - ESXi
-    Version: 
-    Download link:
-    Number: At least 2 in a vCenter Cluster
+| Compute      | Number        | Version   | Download |
+|--------------|:-------------:|:---------:|:--------:|
+| vCenter      | 1             | 7.0       | link     |
+| Cluster      | 1+            | n/a       | n/a      |
+| ESXi         | 2+            | 7.0       | link     |
+| NIC per ESXi | 2+            | n/a       | n/a      |
 
-- NSX-T
-    Version: 
-    Download link:
+
+| Storage        |                                    |
+|----------------|:----------------------------------:|
+| GB.            | xxx                                |
+| Shared storage | recommended for live vMotion tests |
+
+
+| Network & Security | Version  |
+|--------------------|:--------:|
+| NSX-T.             |3.0       |
 
 
