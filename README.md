@@ -21,7 +21,7 @@ NSX offers many more services, such as Load Balancing, VPN, IDS, NSX Intelligenc
 Those are currenlty out of scope of that document.
 
 This document agenda is:
-1. [Requirements](/docs/1-Requirements)
+1. [Requirements](/docs/1-Requirements.md)
 2. 
 3. 
 
