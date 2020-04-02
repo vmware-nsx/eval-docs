@@ -13,16 +13,12 @@ Offer a "step by step" NSX Evaluation Guide to test following NSX Services:
 - (Some) Logical Networking Services
   - Logical Switching
   - Logical Routing (with distributed routing)
+- (Some) Operation tools
+  - Network Topology
+  - Traceflow
 
-NSX offers many more services, such as:
-- Load Balancing
-- VPN
-- IDS - Intrusion Detection System
-- NSX Intelligence
-- Federation
-- etc
-
-Those are out of scope of that NSX Evaluation Guide
+NSX offers many more services, such as Load Balancing, VPN, IDS, NSX Intelligence, Federationn, etc.
+Those are currenlty out of scope of that document.
 
 This document agenda is:
 1. Pre-Requiste
@@ -33,9 +29,9 @@ This document agenda is:
 ## Pre-Requiste
 - Compute
   - vCenter
-    Version: 
-    Download link:
-    Number: 1
+    - Version: 
+    - Download link:
+    - Number: 1
 
   - ESXi
     Version: 
