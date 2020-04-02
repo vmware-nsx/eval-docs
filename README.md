@@ -21,29 +21,9 @@ NSX offers many more services, such as Load Balancing, VPN, IDS, NSX Intelligenc
 Those are currenlty out of scope of that document.
 
 This document agenda is:
-1. Pre-Requiste
+1. [Requirements](/docs/1-Requirements)
 2. 
 3. 
 
-
-## Pre-Requiste
-
-| Compute      | Number        | Version   | Download |
-|:-------------|:-------------:|:---------:|:--------:|
-| vCenter      | 1             | 7.0       | link     |
-| Cluster      | 1+            | n/a       | n/a      |
-| ESXi         | 2+            | 7.0       | link     |
-| NIC per ESXi | 2+            | n/a       | n/a      |
-
-
-| Storage        |                                    |
-|:---------------|:----------------------------------:|
-| Size           | xxx GB                             |
-| Shared storage | recommended for live vMotion tests |
-
-
-| Network & Security | Version  |
-|:-------------------|:--------:|
-| NSX-T.             |3.0       |
 
 
