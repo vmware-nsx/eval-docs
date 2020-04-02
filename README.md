@@ -8,19 +8,19 @@
 
 ## Overview
 Offer a "step by step" NSX Evaluation Guide to test following NSX Services:
-. (Some) Security Services
+- (Some) Security Services
   - Micro-Segmentation (DFW)
-. (Some) Logical Networking Services
+- (Some) Logical Networking Services
   - Logical Switching
   - Logical Routing (with distributed routing)
 
 NSX offers many more services, such as:
-  . Load Balancing
-  . VPN
-  . IDS - Intrusion Detection System
-  . NSX Intelligence
-  . Federation
-  . etc
+- Load Balancing
+- VPN
+- IDS - Intrusion Detection System
+- NSX Intelligence
+- Federation
+- etc
 
 Those are out of scope of that NSX Evaluation Guide
 
