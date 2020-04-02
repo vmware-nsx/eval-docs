@@ -29,7 +29,7 @@ This document agenda is:
 ## Pre-Requiste
 
 | Compute      | Number        | Version   | Download |
-|--------------|:-------------:|:---------:|:--------:|
+|:-------------|:-------------:|:---------:|:--------:|
 | vCenter      | 1             | 7.0       | link     |
 | Cluster      | 1+            | n/a       | n/a      |
 | ESXi         | 2+            | 7.0       | link     |
@@ -37,13 +37,13 @@ This document agenda is:
 
 
 | Storage        |                                    |
-|----------------|:----------------------------------:|
-| GB.            | xxx                                |
+|:---------------|:----------------------------------:|
+| Size           | xxx GB                             |
 | Shared storage | recommended for live vMotion tests |
 
 
 | Network & Security | Version  |
-|--------------------|:--------:|
+|:-------------------|:--------:|
 | NSX-T.             |3.0       |
 
 
