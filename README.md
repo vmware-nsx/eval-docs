@@ -5,6 +5,7 @@
   <img width="200" height="200" src="/docs/assets/logo/For_Dummies.jpeg">
 </p>
 
+---
 
 ## Overview
 Offer a "step by step" NSX Evaluation Guide to test following NSX Services:
@@ -17,9 +18,10 @@ Offer a "step by step" NSX Evaluation Guide to test following NSX Services:
   - Network Topology
   - Traceflow
 
-NSX offers many more services, such as Load Balancing, VPN, IDS, NSX Intelligence, Federationn, etc.
+NSX offers many more services, such as Load Balancing, VPN, IDS, NSX Intelligence, Federationn, etc.  
 Those are currenlty out of scope of that document.
 
+---
 This document agenda is:
 1. [Requirements](/docs/1-Requirements.md)
 2. 
