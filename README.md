@@ -19,7 +19,9 @@ Offer a "step by step" NSX Evaluation Guide to test following NSX Services:
   - Traceflow
 
 NSX offers many more services, such as Load Balancing, VPN, IDS, NSX Intelligence, Federationn, etc.  
-Those are currenlty out of scope of that document.
+Those are currenlty out of scope of that document.  
+
+Also to limit the ESXi/Storage requirements, this evaluation does not cover high-availability.
 
 ---
 This document agenda is:
