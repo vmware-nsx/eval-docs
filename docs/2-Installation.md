@@ -15,10 +15,9 @@
 | ESXi per Cluster          | 2+            | 7.0       | [download link xxx](https://my.vmware.com/en/web/vmware/info/slug/networking_security/vmware_nsx_t_data_center/2_x)     |
 | NIC per ESXi              | 2+            | n/a       | n/a      |
 
-| Storage        |                                    |
-|:---------------|:----------------------------------:|
-| Size           | xxx GB                             |
-| Shared storage | recommended for live vMotion tests |
+| Storage        | Shared storage - Recommended for live vMotion tests |
+|:---------------|:---------------------------------------------------:|
+| Size           | xxx GB                                              |
 
 
 
