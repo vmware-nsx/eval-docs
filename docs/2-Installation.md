@@ -14,6 +14,7 @@
 | NSX-T Manager             | 19.168.50.5   | -             |
 | Edge Node                 | 19.168.50.31  | 192.168.51.31 |
 
+### Steps:
 
 #### Download of NSX Manager OVA
 <details>
