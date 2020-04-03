@@ -1,7 +1,7 @@
 
 ## Installation
 
-#### Table of Contents  
+### Table of Contents  
 - [Validation of pre-requirements](2-Installation.md#validation-of-pre-requirements)  
   - [Compute & Storage](2-Installation.md#Compute--Storage)  
   - [Networking](2-Installation.md#Networking)  
@@ -53,14 +53,23 @@ xxx Add picture
 
 
 
-
 ---
 ---
 
 ### Installation of NSX-T
 xxx To Do
-- Download NSX Manager OVA [download link xxx]
-- Deploy NSX-T Manager on ESXi
-- 
+
+xxx Add picture with NSX in ESXi + IP@ of everything (Mgt ESXi + NSX-Mgr Mgt + ESXi-TEP + Edge Node)
+
+- Download of NSX Manager OVA [download link xxx]
+- Deployment of NSX-T Manager
+- Register NSX to vCenter
+- ESXi Host Preparation 
+  - Uplink Profile Creation
+  - Installion of NSX in ESXi
+- Deployement of Edge Node (not required for the "Security only" tests)
+  - Creation of VDS Port Group "All VLAN"
+  - Installtion of NSX Edge Node
+
 
 
