@@ -1,6 +1,7 @@
-<div class="bg-yellow mb-2">
-  # DRAFT  on .bg-yellow
-</div>
+<p align="center">
+# DRAFT
+</p>
+
 # NSX-T - Evaluation Guide
 
 <p align="center">
