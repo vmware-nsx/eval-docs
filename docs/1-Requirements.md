@@ -20,7 +20,7 @@ Here are the requirements for NSX-T Evaluation
 | Shared storage | recommended for live vMotion tests |
 
 
-| Physcal Network    |                                        |
+| Physical Network    |                                        |
 |:-------------------|:---------------------------------------|
 | VLAN               | Ability to create new VLAN             |
 | Router             | Ability to create interfaces on router |
