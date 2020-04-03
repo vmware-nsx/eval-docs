@@ -35,12 +35,12 @@
 
 xxx Add picture 
 
-| VLAN       | Number  | Description                                         |
-|:-----------|:-------:|:----------------------------------------------------|
-| Management | VLAN 10 | VLAN where Management is running (vCenter / ESXi-Mgt / future NSX-Mgr / future EdgeNode-Mgt) |
-| Web        | VLAN 20 | VLAN where Web VMs will run (for Security only test) |
-| Overlay    | VLAN 30 | VLAN where future NSX Logical Switches Overlay will run in |
-| External   | VLAN 40 | VLAN where future NSX Logical Router will connect to provide "North/South" or "Logical/Physical" connectivity |
+| VLAN       | Number    | Description                                         |
+|:-----------|:---------:|:----------------------------------------------------|
+| Management | VLAN 10   | VLAN where Management is running (vCenter / ESXi-Mgt / future NSX-Mgr / future EdgeNode-Mgt) |
+| Web        | VLAN 20   | VLAN where Web VMs will run (for Security only test) |
+| Overlay    | VLAN 30   | VLAN where future NSX Logical Switches Overlay will run in |
+| External   | VLAN 40   | VLAN where future NSX Logical Router will connect to provide "North/South" or "Logical/Physical" connectivity |
 
 
 - VLAN
