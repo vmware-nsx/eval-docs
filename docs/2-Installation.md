@@ -16,23 +16,9 @@
 | Shared storage | recommended for live vMotion tests |
 
 
-
-| Compute           | Number        | Version   | Download |  | Storage        |                                    |
-|:------------------|:-------------:|:---------:|:--------:|  |:---------------|:----------------------------------:|
-| vCenter           | 1             | 7.0       | link     |  | Size           | xxx GB                             |
-| Cluster           | 1+            | n/a       | n/a      |  | Shared storage | recommended for live vMotion tests |
-| ESXi per Cluster  | 2+            | 7.0       | link     |
-| NIC per ESXi      | 2+            | n/a       | n/a      |
-
-
 <p align="left">
   <img width=75% height=75% src="/docs/assets/Graphics/2.1.Pre-Req Compute.jpg">
 </p>
 
-
-xxx Add picture xxx
-- vCenter 7.0 with 1 Cluster + 2 ESXi 7.0
-- ESXi with 2 pNICs (1 used for Mgr + 1 unused)
-- Storage x GB available
 
 
