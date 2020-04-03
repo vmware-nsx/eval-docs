@@ -8,6 +8,7 @@
 - [Installation of NSX-T](2-Installation.md#Installation-of-NSX-t)  
 
 ---
+---
 
 
 ### Validation of pre-requirements
@@ -53,7 +54,7 @@ xxx Add picture
 
 
 
-
+---
 ---
 
 ### Installation of NSX-T
