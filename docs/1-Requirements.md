@@ -84,4 +84,4 @@ Here are the requirements for NSX-T Evaluation
 
 ---
 
-[**Next Step: Installation of NSX**](/docs/2-Installation.md)
+[***Next Step: Installation of NSX***](/docs/2-Installation.md)
