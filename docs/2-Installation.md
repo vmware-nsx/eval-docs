@@ -16,7 +16,7 @@
 
 ### Steps:
 
-#### Download of NSX Manager OVA
+#### 1. Download of NSX Manager OVA
 <details>
 <summary>"Click to expand"</summary>
 Download NSX-T 3.0 Manager for VMware ESXi OVA file [here](https://my.vmware.com/en/web/vmware/info/slug/networking_security/vmware_nsx_t_data_center/2_x)
@@ -25,7 +25,7 @@ xxx fix the link + add screenshot of VMware download.
 </details>
 
 
-#### Deployment of NSX-T Manager
+#### 2. Deployment of NSX-T Manager
 <details>
 <summary>"Click to expand"</summary>
 
@@ -36,7 +36,7 @@ xxx Add the screenshots
 </details>
 
 
-#### Register NSX to vCenter
+#### 3. Register NSX to vCenter
 <details>
 <summary>"Click to expand"</summary>
 
@@ -46,7 +46,7 @@ xxx Add the screenshots
 </details>
 
 
-#### ESXi Host Preparation
+#### 4. ESXi Host Preparation
 <details>
 <summary>"Click to expand"</summary>
 
@@ -67,7 +67,7 @@ xxx Add the screenshots
 </details>
 
 
-#### Deployement of Edge Node
+#### 5. Deployement of Edge Node
 <details>
 <summary>"Click to expand"</summary>
 
