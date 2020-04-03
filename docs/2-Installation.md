@@ -3,6 +3,7 @@
 
 ### Validation of pre-requirements
 
+#### Compute & Storage
 
 <p align="left">
   <img width=75% height=75% src="/docs/assets/Graphics/2.1.Pre-Req Compute.jpg">
@@ -20,5 +21,27 @@
 | Size           | xxx GB                                              |
 
 
+#### Networking
+
+xxx Add picture 
+
+- VLAN
+  - Management (VLAN10) <--- VLAN where Management is running (vCenter / ESXi-Mgt / future NSX-Mgr / future EdgeNode-Mgt)
+  - Web (VLAN20)        <--- VLAN where Web VMs will run (for Security only test)
+  - Overlay (VLAN30)    <--- VLAN where future NSX Logical Switches Overlay will run in
+  - External (VLAN40)   <--- VLAN where future NSX Logical Router will connect to provide "North/South" or "Logical/Physical" connectivity
+
+- Physical Router
+  - configure 1 interface on each of those VLAN
+  Note: Since overlay will run here only in VLAN30, there is no need to enable large MTU on router interface
+
+
+
+---
+
+### Installation of NSX
+xxx To Do
+- Download NSX Manager OVA [download link xxx]
+- Deplp
 
 
