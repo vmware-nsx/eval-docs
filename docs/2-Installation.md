@@ -16,22 +16,20 @@
 | Shared storage | recommended for live vMotion tests |
 
 
-<p align="left">
-  <img width=40% height=40% src="/docs/assets/Graphics/2.1.Pre-Req Compute.jpg">
-</p>
-
-50
-
-<p align="left">
-  <img width=50% height=50% src="/docs/assets/Graphics/2.1.Pre-Req Compute.jpg">
-</p>
-
 60
-
 <p align="left">
   <img width=60% height=60% src="/docs/assets/Graphics/2.1.Pre-Req Compute.jpg">
 </p>
 
+70
+<p align="left">
+  <img width=70% height=70% src="/docs/assets/Graphics/2.1.Pre-Req Compute.jpg">
+</p>
+
+70
+<p align="left">
+  <img width=70% height=70% src="/docs/assets/Graphics/2.1.Pre-Req Compute.jpg">
+</p>
 xxx Add picture xxx
 - vCenter 7.0 with 1 Cluster + 2 ESXi 7.0
 - ESXi with 2 pNICs (1 used for Mgr + 1 unused)
