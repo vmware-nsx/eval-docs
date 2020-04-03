@@ -5,10 +5,9 @@
 [Validation of pre-requirements](#validation)  
 [  Compute & Storage](#compute)  
 
-<a name="validation"/>
 ### Validation of pre-requirements
 
-<a name="compute"/>
+
 #### Compute & Storage
 
 <p align="left">
