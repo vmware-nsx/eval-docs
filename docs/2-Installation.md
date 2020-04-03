@@ -59,7 +59,7 @@ xxx Add picture
 ### Installation of NSX-T
 xxx To Do
 
-xxx Add picture with NSX in ESXi + IP@ of everything (Mgt ESXi + NSX-Mgr Mgt + ESXi-TEP + Edge Node)
+xxx Add picture with NSX in ESXi + IP@ of everything (Mgt ESXi + NSX-Mgr Mgt + ESXi-TEP + Edge Node VM + Mgt IP + TEP IP)
 
 - Download of NSX Manager OVA [download link xxx]
 - Deployment of NSX-T Manager
