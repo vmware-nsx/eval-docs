@@ -61,15 +61,35 @@ xxx To Do
 
 xxx Add picture with NSX in ESXi + IP@ of everything (Mgt ESXi + NSX-Mgr Mgt + ESXi-TEP + Edge Node VM + Mgt IP + TEP IP)
 
-- Download of NSX Manager OVA [download link xxx]
-- Deployment of NSX-T Manager
-- Register NSX to vCenter
-- ESXi Host Preparation 
-  - Uplink Profile Creation
-  - Installion of NSX in ESXi
-- Deployement of Edge Node (not required for the "Security only" tests)
-  - Creation of VDS Port Group "All VLAN"
-  - Installtion of NSX Edge Node
+- [Download of NSX Manager OVA]
+- [Deployment of NSX-T Manager]
+- [Register NSX to vCenter]
+- [ESXi Host Preparation]
+  - [Uplink Profile Creation]
+  - [Installion of NSX in ESXi]
+- [Deployement of Edge Node (not required for the "Security only" tests)]
+  - [Creation of VDS Port Group "All VLAN"]
+  - [Installtion of NSX Edge Node]
+
+#### Download of NSX Manager OVA
 
 
 
+#### Deployment of NSX-T Manager
+
+
+#### Register NSX to vCenter
+
+
+#### ESXi Host Preparation
+
+##### Uplink Profile Creation
+
+##### Installion of NSX in ESXi
+
+
+#### Deployement of Edge Node
+
+##### Creation of VDS Port Group "All VLAN"
+
+##### Installtion of NSX Edge Node
