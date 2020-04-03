@@ -1,5 +1,5 @@
-aaa
-# Test Github for creating + maintaining NSX Evaluation Guide
+# DRAFT
+# NSX-T - Evaluation Guide
 
 <p align="center">
   <img width="292" height="172" src="/docs/assets/logo/NSX_Logo.jpeg">
