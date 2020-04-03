@@ -1,9 +1,11 @@
 
-## Installation of NSX
+## Installation
 
 ##### Table of Contents  
-[Validation of pre-requirements](2-Installation.md#validation-of-pre-requirements)  
-  [Compute & Storage](2-Installation.md#Compute-&-Storage)  
+-[Validation of pre-requirements](2-Installation.md#validation-of-pre-requirements)  
+  -[Compute & Storage](2-Installation.md#Compute--Storage)  
+  -[Networking](2-Installation.md#Networking)  
+-[Installation of NSX](2-Installation.md#Installation-of-NSX)  
 
 ### Validation of pre-requirements
 
