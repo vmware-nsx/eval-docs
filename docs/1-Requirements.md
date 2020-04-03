@@ -65,12 +65,12 @@ Here are the requirements for NSX-T Evaluation
   <img width=75% height=75% src="/docs/assets/Graphics/1.2.Pre-Req Networking.jpg">
 </p>
 
-| VLAN       | Number    | Description                                         |
-|:-----------|:---------:|:----------------------------------------------------|
-| Management | VLAN 10   | VLAN where Management is running (vCenter / ESXi-Mgt / future NSX-Mgr / future EdgeNode-Mgt) |
-| Web        | VLAN 20   | VLAN where Web VMs will run (for Security only test) |
-| Overlay    | VLAN 30   | VLAN where future NSX Logical Switches Overlay will run in |
-| External   | VLAN 40   | VLAN where future NSX Logical Router will connect to provide "North/South" or "Logical/Physical" connectivity |
+| VLAN       | Number      | Description                                         |
+|:-----------|:-----------:|:----------------------------------------------------|
+| Management | VLAN 11     | VLAN where Management is running (vCenter / ESXi-Mgt / future NSX-Mgr / future EdgeNode-Mgt) |
+| Web        | VLAN 3104   | VLAN where Web VMs will run (for Security only test) |
+| Overlay    | VLAN 12     | VLAN where future NSX Logical Switches Overlay will run in |
+| External   | VLAN 3103   | VLAN where future NSX Logical Router will connect to provide "North/South" or "Logical/Physical" connectivity |
 
 
 | Physical Router |                                                     |
