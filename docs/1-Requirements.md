@@ -29,9 +29,9 @@ Here are the requirements for NSX-T Evaluation
 
 ---
 
-## Validation of Requirements
+### Validation of Requirements
 
-### Compute & Storage
+#### Compute & Storage
 
 <details>
 <summary>"Click to expand"</summary>
@@ -56,7 +56,7 @@ Here are the requirements for NSX-T Evaluation
 </details>
 
 
-### Networking
+#### Networking
 
 <details>
 <summary>"Click to expand"</summary>
