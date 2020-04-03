@@ -15,14 +15,16 @@ Here are the requirements for NSX-T Evaluation
 
 
 | Storage        |                                    |
-|:---------------|:----------------------------------:|
+|:---------------|:-----------------------------------|
 | Size           | xxx GB                             |
 | Shared storage | recommended for live vMotion tests |
 
 
-| Network & Security | Version  |
-|:-------------------|:--------:|
-| NSX-T              |3.0       |
+| Physcal Network    |                                        |
+|:-------------------|:---------------------------------------|
+| VLAN               | Ability to create new VLAN             |
+| Router             | Ability to create interfaces on router |
+
 
 </details>
 
