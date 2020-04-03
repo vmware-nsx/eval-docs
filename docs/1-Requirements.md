@@ -37,7 +37,7 @@ Here are the requirements for NSX-T Evaluation
 <summary>"Click to expand"</summary>
 
 <p align="center">
-  <img width=75% height=75% src="/docs/assets/Graphics/2.1.Pre-Req Compute.jpg">
+  <img width=75% height=75% src="/docs/assets/Graphics/1.1.Pre-Req Compute.jpg">
 </p>
 
 | Compute                   | Number        | Version   | Download |
@@ -61,7 +61,9 @@ Here are the requirements for NSX-T Evaluation
 <details>
 <summary>"Click to expand"</summary>
 
-xxx Add picture 
+<p align="center">
+  <img width=75% height=75% src="/docs/assets/Graphics/1.2.Pre-Req Networking.jpg">
+</p>
 
 | VLAN       | Number    | Description                                         |
 |:-----------|:---------:|:----------------------------------------------------|
