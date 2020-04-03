@@ -43,10 +43,10 @@ xxx Add picture
 | External   | VLAN 40   | VLAN where future NSX Logical Router will connect to provide "North/South" or "Logical/Physical" connectivity |
 
 
-| Physical Router | Description                                         |
+| Physical Router |                                                     |
 |:----------------|:----------------------------------------------------|
 | Interface       | 1 interface on each of those VLAN                   |
-|Note: Since overlay will run here only in VLAN30, there is no need to enable large MTU on router interface |
+|                 |Note: Since overlay will run here only in VLAN30, there is no need to enable large MTU on router interface |
 
 - Physical Router
   - configure 1 interface on each of those VLAN
