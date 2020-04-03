@@ -2,13 +2,13 @@
 ## Installation of NSX
 
 ##### Table of Contents  
-[Headers](#headers)  
+[Validation of pre-requirements](#Validation)  
+[  Validation of pre-requirements](#Compute)  
 
-<a name="headers"/>
-## Headers
-
+<a name="Validation"/>
 ### Validation of pre-requirements
 
+<a name="Compute"/>
 #### Compute & Storage
 
 <p align="left">
