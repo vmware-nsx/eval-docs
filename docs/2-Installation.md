@@ -46,7 +46,7 @@ xxx Add picture
 | Physical Router |                                                     |
 |:----------------|:----------------------------------------------------|
 | Interface       | 1 interface on each of those VLAN                   |
-|                 | *Note: Since overlay will run here only in VLAN30, there is no need to enable large MTU on router interface* |
+|                 | *Note: Since overlay will run only in VLAN30, there is no need to enable large MTU on router interface* |
 
 
 
