@@ -3,6 +3,11 @@
 
 ### Validation of pre-requirements
 
+
+<p align="left">
+  <img width=75% height=75% src="/docs/assets/Graphics/2.1.Pre-Req Compute.jpg">
+</p>
+
 | Compute           | Number        | Version   | Download |
 |:------------------|:-------------:|:---------:|:--------:|
 | vCenter           | 1             | 7.0       | link     |
@@ -15,10 +20,6 @@
 | Size           | xxx GB                             |
 | Shared storage | recommended for live vMotion tests |
 
-
-<p align="left">
-  <img width=75% height=75% src="/docs/assets/Graphics/2.1.Pre-Req Compute.jpg">
-</p>
 
 
 
