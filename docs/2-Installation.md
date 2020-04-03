@@ -14,9 +14,6 @@
 
 ---
 
-
-xxx To Do
-
 <p align="center">
   <img width=75% height=75% src="/docs/assets/Graphics/2.1.Installation-Design.jpg">
 </p>

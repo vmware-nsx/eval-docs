@@ -3,8 +3,6 @@
 
 Here are the requirements for NSX-T Evaluation
 
-<details>
-<summary>"Click to expand"</summary>
 
 | Compute           | Number        | Version   | Download |
 |:------------------|:-------------:|:---------:|:--------:|
@@ -25,8 +23,6 @@ Here are the requirements for NSX-T Evaluation
 | VLAN               | Ability to create new VLAN             |
 | Router             | Ability to create interfaces on router |
 
-
-</details>
 
 
 ---
