@@ -1,7 +1,7 @@
 
 ## Installation
 
-##### Table of Contents  
+#### Table of Contents  
 - [Validation of pre-requirements](2-Installation.md#validation-of-pre-requirements)  
   - [Compute & Storage](2-Installation.md#Compute--Storage)  
   - [Networking](2-Installation.md#Networking)  
