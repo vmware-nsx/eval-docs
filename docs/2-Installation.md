@@ -1,19 +1,6 @@
 
 ## 2. Installation of NSX-T
 
-### Table of Contents  
-- [Download of NSX Manager OVA](#Download-of-NSX-Manager-OVA)
-- [Deployment of NSX-T Manager](#Deployment-of-NSX-T-Manager)
-- [Register NSX to vCenter](#Register-NSX-to-vCenter)
-- [ESXi Host Preparation](#ESXi-Host-Preparation)
-  - [Uplink Profile Creation](#Uplink-Profile-Creation)
-  - [Installion of NSX in ESXi](#Installion-of-NSX-in-ESXi)
-- [Deployement of Edge Node (not required for the "Security only" tests)](#Deployement-of-Edge-Node)
-  - [Creation of VDS Port Group "All VLAN"](#creation-of-vds-port-group-all-vlan)
-  - [Installation of NSX Edge Node](#Installation-of-NSX-Edge-Node)
-
----
-
 <p align="center">
   <img width=75% height=75% src="/docs/assets/Graphics/2.1.Installation-Design.jpg">
 </p>
@@ -26,8 +13,6 @@
 | ESXi2                     | 19.168.50.22  | 192.168.51.22 |
 | NSX-T Manager             | 19.168.50.5   | -             |
 | Edge Node                 | 19.168.50.31  | 192.168.51.31 |
-
-
 
 
 #### Download of NSX Manager OVA
