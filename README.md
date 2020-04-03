@@ -26,11 +26,11 @@ Also to limit the ESXi/Storage requirements, this evaluation does not cover high
 ---
 This document agenda is:
 1. [Requirements](/docs/1-Requirements.md)
-2. Installation of NSX
-3. NSX Evaluation
-  * Logical Network
-  * Security
-  * Operation Tools
+1. Installation of NSX
+1. NSX Evaluation
+   1. Logical Network
+   1. Security
+   1. Operation Tools
 
 
 
