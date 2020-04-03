@@ -16,6 +16,9 @@
 
 #### Compute & Storage
 
+<details>
+<summary>"Click to expand"</summary>
+
 <p align="center">
   <img width=75% height=75% src="/docs/assets/Graphics/2.1.Pre-Req Compute.jpg">
 </p>
@@ -33,8 +36,13 @@
 |:---------------|:---------------------------------------------------:|
 | Size           | xxx GB                                              |
 
+</details>
+
 
 #### Networking
+
+<details>
+<summary>"Click to expand"</summary>
 
 xxx Add picture 
 
@@ -51,12 +59,16 @@ xxx Add picture
 | Interface       | 1 interface on each of those VLAN                   |
 |                 | *Note: Since overlay will run only in VLAN30, there is no need to enable large MTU on router interface* |
 
-
+</details>
 
 ---
 ---
 
 ### Installation of NSX-T
+
+<details>
+<summary>"Click to expand"</summary>
+
 xxx To Do
 
 xxx Add picture with NSX in ESXi + IP@ of everything (Mgt ESXi + NSX-Mgr Mgt + ESXi-TEP + Edge Node VM + Mgt IP + TEP IP)
@@ -92,3 +104,5 @@ xxx Add picture with NSX in ESXi + IP@ of everything (Mgt ESXi + NSX-Mgr Mgt + E
 ##### Creation of VDS Port Group "All VLAN"
 
 ##### Installation of NSX Edge Node
+
+</details>
