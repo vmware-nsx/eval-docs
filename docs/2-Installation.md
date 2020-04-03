@@ -15,7 +15,7 @@
 
 #### Compute & Storage
 
-<p align="left">
+<p align="center">
   <img width=75% height=75% src="/docs/assets/Graphics/2.1.Pre-Req Compute.jpg">
 </p>
 
