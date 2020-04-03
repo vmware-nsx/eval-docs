@@ -2,10 +2,10 @@
 ## Installation
 
 ### Table of Contents  
-- [Validation of pre-requirements](2-Installation.md#validation-of-pre-requirements)  
-  - [Compute & Storage](2-Installation.md#Compute--Storage)  
-  - [Networking](2-Installation.md#Networking)  
-- [Installation of NSX-T](2-Installation.md#Installation-of-NSX-t)  
+- [Validation of pre-requirements](#validation-of-pre-requirements)  
+  - [Compute & Storage](#Compute--Storage)  
+  - [Networking](#Networking)  
+- [Installation of NSX-T](#Installation-of-NSX-t)  
 
 ---
 ---
@@ -62,17 +62,16 @@ xxx To Do
 xxx Add picture with NSX in ESXi + IP@ of everything (Mgt ESXi + NSX-Mgr Mgt + ESXi-TEP + Edge Node VM + Mgt IP + TEP IP)
 
 - [Download of NSX Manager OVA](#Download-of-NSX-Manager-OVA)
-- [Deployment of NSX-T Manager]
-- [Register NSX to vCenter]
-- [ESXi Host Preparation]
-  - [Uplink Profile Creation]
-  - [Installion of NSX in ESXi]
-- [Deployement of Edge Node (not required for the "Security only" tests)]
-  - [Creation of VDS Port Group "All VLAN"]
-  - [Installtion of NSX Edge Node]
+- [Deployment of NSX-T Manager](#Deployment-of-NSX-T-Manager)
+- [Register NSX to vCenter](#Register-NSX-to-vCenter)
+- [ESXi Host Preparation](#ESXi-Host-Preparation)
+  - [Uplink Profile Creation](#Uplink-Profile-Creation)
+  - [Installion of NSX in ESXi](#Installion-of-NSX-in-ESXi)
+- [Deployement of Edge Node (not required for the "Security only" tests)](#Deployement-of-Edge-Node)
+  - [Creation of VDS Port Group "All VLAN"](#creation-of-vds-port-group-all-vlan)
+  - [Installation of NSX Edge Node](#Installation-of-NSX-Edge-Node)
 
 #### Download of NSX Manager OVA
-
 
 
 #### Deployment of NSX-T Manager
@@ -92,4 +91,4 @@ xxx Add picture with NSX in ESXi + IP@ of everything (Mgt ESXi + NSX-Mgr Mgt + E
 
 ##### Creation of VDS Port Group "All VLAN"
 
-##### Installtion of NSX Edge Node
+##### Installation of NSX Edge Node
