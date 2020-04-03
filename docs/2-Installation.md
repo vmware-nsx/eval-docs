@@ -19,6 +19,7 @@
 #### 1. Download of NSX Manager OVA
 <details>
 <summary>"Click to expand"</summary>
+
 Download NSX-T 3.0 Manager for VMware ESXi OVA file [download link xxx](https://my.vmware.com/en/web/vmware/info/slug/networking_security/vmware_nsx_t_data_center/2_x)
 
 xxx fix the link + add screenshot of VMware download.
