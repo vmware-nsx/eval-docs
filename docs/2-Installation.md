@@ -30,7 +30,7 @@ xxx fix the link + add screenshot of VMware download.
 <details>
 <summary>"Click to expand"</summary>
 
-From vCenter, deploy NSX-T Unified Appliance OVA.
+From vCenter, deploy NSX-T Unified Appliance OVA.  
 xxx Add the screenshots
 
 
@@ -41,7 +41,7 @@ xxx Add the screenshots
 <details>
 <summary>"Click to expand"</summary>
 
-From NSX-T Manager under "xxx - xxx", register vCenter.
+From NSX-T Manager under "xxx - xxx", register vCenter.  
 xxx Add the screenshots
 
 </details>
@@ -55,13 +55,13 @@ xxx Add the screenshots
 
 From NSX-T Manager under "xxx - xxx", create Uplink Profile for Transport Nodes (ESXi + Edge Node):
 - VLAN information for Overlay traffic (= VLAN 12 in lab)
-- Number of NIC for "VDS - NSX-T prepared" switch (= 1 NIC in lab)
+- Number of NIC for "VDS - NSX-T prepared" switch (= 1 NIC in lab)  
 xxx Add the screenshots
 
 
 ##### Installion of NSX in ESXi
 
-From NSX-T Manager under "xxx - xxx", install NSX-T in the ESXi.
+From NSX-T Manager under "xxx - xxx", install NSX-T in the ESXi.  
 xxx Add the screenshots
 
 
@@ -73,11 +73,11 @@ xxx Add the screenshots
 <summary>"Click to expand"</summary>
 
 ##### Creation of VDS Port Group "All VLAN"
-From vCenter, create a Port Group "All VLAN" (= VLAN Tag 1-4096).
+From vCenter, create a Port Group "All VLAN" (= VLAN Tag 1-4096).  
 xxx Add the screenshots
 
 ##### Installation of NSX Edge Node
-From NSX-T Manager, deploy 1 Edge Node + configure it.
+From NSX-T Manager, deploy 1 Edge Node + configure it.  
 xxx Add the screenshots
 
 </details>
