@@ -61,7 +61,7 @@ xxx To Do
 
 xxx Add picture with NSX in ESXi + IP@ of everything (Mgt ESXi + NSX-Mgr Mgt + ESXi-TEP + Edge Node VM + Mgt IP + TEP IP)
 
-- [Download of NSX Manager OVA](Download-of-NSX-Manager-OVA)
+- [Download of NSX Manager OVA](#Download-of-NSX-Manager-OVA)
 - [Deployment of NSX-T Manager]
 - [Register NSX to vCenter]
 - [ESXi Host Preparation]
