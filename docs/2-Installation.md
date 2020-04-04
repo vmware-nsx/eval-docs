@@ -31,10 +31,54 @@ xxx fix the link + add screenshot of VMware download.
 <summary>"Click to expand"</summary>
 
 - From vCenter, deploy NSX-T Unified Appliance OVA.  
-<p align="center">
-  <img width=75% height=75% src="/docs/assets/Graphics/2.0.Installation-Design.jpg">
-</p>
+	<p align="center">
+	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step1.jpg">
+	</p>
 
+- Select OVF file.  
+	<p align="center">
+	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step2.jpg">
+	</p>
+
+- Enter NSX-T Manager VM name + vCenter folder for VM.  
+	<p align="center">
+	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step3.jpg">
+	</p>
+
+- Select ESXi to host NSX-T Manager.  
+	<p align="center">
+	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step4.jpg">
+	</p>
+
+- Review NSX-T Manager VM details.  
+	<p align="center">
+	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step5.jpg">
+	</p>
+
+- Select NSX-T Manager VM size.  
+	<p align="center">
+	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step6.jpg">
+	</p>
+
+- Select storage for NSX-T Manager VM.  
+	<p align="center">
+	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step7.jpg">
+	</p>
+
+- Select VDS Port Group for NSX-T Manager management vNIC.  
+	<p align="center">
+	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step8.jpg">
+	</p>
+
+- Enter NSX-T Manager information (password, hostname, IP, DNS, NTP). Important: Rolename is "NSX Manager".  
+	<p align="center">
+	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step9.jpg">
+	</p>
+
+- Review NSX-T Manager VM settings.  
+	<p align="center">
+	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step10.jpg">
+	</p>
 
 </details>
 
