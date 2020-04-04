@@ -30,8 +30,10 @@ xxx fix the link + add screenshot of VMware download.
 <details>
 <summary>"Click to expand"</summary>
 
-From vCenter, deploy NSX-T Unified Appliance OVA.  
-xxx Add the screenshots
+- From vCenter, deploy NSX-T Unified Appliance OVA.  
+<p align="center">
+  <img width=75% height=75% src="/docs/assets/Graphics/2.0.Installation-Design.jpg">
+</p>
 
 
 </details>
