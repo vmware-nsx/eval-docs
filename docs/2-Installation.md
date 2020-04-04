@@ -32,7 +32,7 @@ xxx fix the link + add screenshot of VMware download.
 
 - From vCenter, deploy NSX-T Unified Appliance OVA.  
 	<p align="center">
-	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step1.jpg">
+	  <img width=40% height=40% src="/docs/assets/Graphics/2.2.step1.jpg">
 	</p>
 
 - Select OVF file.  
