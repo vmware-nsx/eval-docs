@@ -82,7 +82,7 @@ xxx fix the link + add screenshot of VMware download.
 
 - Once NSX-T Manager deployment is finished, start the VM.  
 	<p align="center">
-	  <img width=25% height=25% src="/docs/assets/Graphics/2.2.step11.jpg">
+	  <img width=40% height=40% src="/docs/assets/Graphics/2.2.step11.jpg">
 	</p>
 </details>
 
