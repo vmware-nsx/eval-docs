@@ -1,5 +1,9 @@
-aaa
-# Test Github for creating + maintaining NSX Evaluation Guide
+
+<p align="center">
+# DRAFT
+</p>
+
+# NSX-T - Evaluation Guide
 
 <p align="center">
   <img width="292" height="172" src="/docs/assets/logo/NSX_Logo.jpeg">
@@ -34,4 +38,6 @@ This document table of content is:
    1. Operation Tools
 
 
+---
 
+[***Next Step: 1. Requirements***](/docs/1-Requirements.md)
