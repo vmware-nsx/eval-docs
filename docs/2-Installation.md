@@ -2,7 +2,7 @@
 ## 2. Installation of NSX-T
 
 <p align="center">
-  <img width=75% height=75% src="/docs/assets/Graphics/2.1.Installation-Design.jpg">
+  <img width=75% height=75% src="/docs/assets/Graphics/2.0.Installation-Design.jpg">
 </p>
 
 
