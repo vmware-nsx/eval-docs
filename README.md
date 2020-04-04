@@ -1,4 +1,3 @@
-dd
 
 <p align="center">
 # DRAFT
