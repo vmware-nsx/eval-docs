@@ -1,33 +1,7 @@
 
 ## 1. Requirements
 
-Here are the requirements for NSX-T Evaluation
-
-
-| Compute          | Number | Version | Download |
-|:-----------------|:------:|:-------:|:--------:|
-| vCenter          |   1    |   7.0   |   link   |
-| Cluster          |   1+   |   n/a   |   n/a    |
-| ESXi per Cluster |   2+   |   7.0   |   link   |
-| NIC per ESXi     |   2+   |   n/a   |   n/a    |
-
-
-| Storage        |                                    |
-|:---------------|:-----------------------------------|
-| Size           | xxx GB                             |
-| Shared storage | recommended for live vMotion tests |
-
-
-| Physical Network |                                        |
-|:-----------------|:---------------------------------------|
-| VLAN             | Ability to create new VLAN             |
-| Router           | Ability to create interfaces on router |
-
-
-
----
-
-### Validation of Requirements
+Here are the requirements for NSX-T Evaluation.
 
 #### Compute & Storage
 
@@ -77,6 +51,7 @@ Here are the requirements for NSX-T Evaluation
 |                 | *Note: Since overlay will run only in VLAN30, there is no need to enable large MTU on router interface* |
 
 </details>
+
 
 ---
 

@@ -3,7 +3,7 @@
 
 <p align="center">
   <img width=75% height=75% src="/docs/assets/Graphics/2.0.Installation-Design.jpg"><br>
-  <i>Image2.1: ESXi configuration at the end of that section*</i>
+  <i>Image-Goal: ESXi configuration at the end of that section</i>
 </p>
 
 
@@ -117,7 +117,7 @@ xxx fix the link + add screenshot of VMware download.
 ##### Uplink Profile Creation
 
 - From NSX-T Manager under "xxx - xxx", create Uplink Profile for Transport Nodes (ESXi + Edge Node). 
-  - VLAN information for Overlay traffic (= VLAN 12 in lab - see picture)
+  - VLAN information for Overlay traffic (= VLAN 12 in lab - see [Requirements-Networking](/docs/1-Requirements.md#Networking))
   - Number of NIC for "VDS - NSX-T prepared" switch (= 1 NIC in lab)  
 	<p align="center">
 	  <img width=25% height=25% src="/docs/assets/Graphics/2.4.step1.jpg">
