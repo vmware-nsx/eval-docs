@@ -92,6 +92,7 @@ xxx fix the link + add screenshot of VMware download.
 <summary>"Click to expand"</summary>
 
 - Log on NSX-T Manager UI.  
+In a browserrt: https://192.168.50.5/.  
 	<p align="center">
 	  <img width=85% height=85% src="/docs/assets/Graphics/2.3.step1.jpg">
 	</p>
@@ -129,16 +130,25 @@ Under "System - Configuration - Fabric - Compute Managers", click "Refresh" (bot
 
 - Create Uplink Profile for Transport Nodes (Configuration of "VLAN-Overlay + NIC" for ESXis + Edge Node).  
 Under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add".  
-*See top graphic for VLAN for Overlay traffic (12) and number of uplinks for "VDS - NSX-T prepared" (1 NIC).*  
+*See the top of page for VLAN for Overlay traffic information (12) and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*  
   	<p align="center">
 	  <img width=50% height=50% src="/docs/assets/Graphics/2.4.step1.jpg">
 	</p>  
 
-- Configure NSX-T for ESXi. Under "System - Configuration - Fabric - Node - Host Transport Nodes - Managed by", select "Lab-vCenter".  
+- Configure NSX-T for ESXi.  
+Under "System - Configuration - Fabric - Node - Host Transport Nodes - Managed by", select "Lab-vCenter".  
 	<p align="center">
-	  <img width=85% height=85% src="/docs/assets/Graphics/2.4.step1.jpg">
+	  <img width=85% height=85% src="/docs/assets/Graphics/2.4.step2.jpg">
 	</p>
-  - Configure each ESXi 
+ 
+Configure for each ESXi its new "VDS - NSX-T prepared"
+	<p align="center">
+	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.step3a.jpg">
+	</p>
+	<p align="center">
+	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.step3b.jpg">
+	</p>
+
 
 
 From NSX-T Manager under "xxx - xxx", create Uplink Profile for Transport Nodes (ESXi + Edge Node):
