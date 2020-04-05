@@ -124,7 +124,7 @@ xxx fix the link + add screenshot of VMware download.
 
 ##### Uplink Profile Creation
 
-- Create Uplink Profile for Transport Nodes (Configuration of "VLAN-Overlay + NIC" for ESXis + Edge Node).
+- Create Uplink Profile for Transport Nodes (Configuration of "VLAN-Overlay + NIC" for ESXis + Edge Node).  
 Under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add".  
   - VLAN information for Overlay traffic (= VLAN 12 in lab - see [Requirements-Networking](/docs/1-Requirements.md#Networking))
   - Number of NIC for "VDS - NSX-T prepared" switch (= 1 NIC in lab)  
