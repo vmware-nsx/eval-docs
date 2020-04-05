@@ -55,7 +55,7 @@ xxx fix the link + add screenshot of VMware download.
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step5.jpg">
 	</p>
 
-- Select NSX-T Manager VM size.  
+- Select NSX-T Manager VM size (Small).  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step6.jpg">
 	</p>
@@ -65,7 +65,7 @@ xxx fix the link + add screenshot of VMware download.
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step7.jpg">
 	</p>
 
-- Select VDS Port Group for NSX-T Manager management vNIC.  
+- Select VDS Port Group for NSX-T Manager management vNIC (vCenter Managament Port Group).  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step8.jpg">
 	</p>
@@ -87,7 +87,7 @@ xxx fix the link + add screenshot of VMware download.
 </details>
 
 
-#### 3. Register NSX to vCenter
+#### 3. Register NSX-T to vCenter
 <details>
 <summary>"Click to expand"</summary>
 
