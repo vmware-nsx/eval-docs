@@ -136,11 +136,13 @@ Under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add
 	</p>  
 
 - Configure NSX-T for ESXi.  
-Under "System - Configuration - Fabric - Node - Host Transport Nodes - Managed by", select "Lab-vCenter".  
+  - Select each ESXi of vCenter-Cluster
+  Under "System - Configuration - Fabric - Node - Host Transport Nodes - Managed by", select "Lab-vCenter".  
 	<p align="center">
 	  <img width=85% height=85% src="/docs/assets/Graphics/2.4.step2.jpg">
 	</p>   
-Configure for each ESXi its new "VDS - NSX-T prepared"
+  - For each ESXi, configure its new "VDS - NSX-T prepared"
+  Click "Configure NSX".
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.step3a.jpg">
 	</p>
