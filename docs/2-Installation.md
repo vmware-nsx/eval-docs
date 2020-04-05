@@ -3,7 +3,7 @@
 
 <p align="center">
   <img width=75% height=75% src="/docs/assets/Graphics/2.0.Installation-Design.jpg">  
-  *Image2.1: ESXi configuration at the end of that section*
+  <b>*Image2.1: ESXi configuration at the end of that section*</b><br>
 </p>
 
 
