@@ -2,7 +2,8 @@
 ## 2. Installation of NSX-T
 
 <p align="center">
-  <img width=75% height=75% src="/docs/assets/Graphics/2.0.Installation-Design.jpg">
+  <img width=75% height=75% src="/docs/assets/Graphics/2.0.Installation-Design.jpg">  
+  *Image2.1: ESXi configuration at the end of that section*
 </p>
 
 
@@ -91,8 +92,20 @@ xxx fix the link + add screenshot of VMware download.
 <details>
 <summary>"Click to expand"</summary>
 
-From NSX-T Manager under "xxx - xxx", register vCenter.  
-xxx Add the screenshots
+- Log on NSX-T Manager UI.  
+	<p align="center">
+	  <img width=25% height=25% src="/docs/assets/Graphics/2.3.step1.jpg">
+	</p>
+
+- Register NSX-T in vCenter (to allow the deplyment of NSX elements into vCenter/ESXi from NSX).  
+	<p align="center">
+	  <img width=25% height=25% src="/docs/assets/Graphics/2.3.step2.jpg">
+	</p>
+
+- Validate NSX-T registration in vCenter.  
+	<p align="center">
+	  <img width=25% height=25% src="/docs/assets/Graphics/2.3.step3.jpg">
+	</p>
 
 </details>
 
@@ -102,6 +115,14 @@ xxx Add the screenshots
 <summary>"Click to expand"</summary>
 
 ##### Uplink Profile Creation
+
+- From NSX-T Manager under "xxx - xxx", create Uplink Profile for Transport Nodes (ESXi + Edge Node). 
+  - VLAN information for Overlay traffic (= VLAN 12 in lab - see picture)
+  - Number of NIC for "VDS - NSX-T prepared" switch (= 1 NIC in lab)  
+	<p align="center">
+	  <img width=25% height=25% src="/docs/assets/Graphics/2.4.step1.jpg">
+	</p>
+
 
 From NSX-T Manager under "xxx - xxx", create Uplink Profile for Transport Nodes (ESXi + Edge Node):
 - VLAN information for Overlay traffic (= VLAN 12 in lab)
