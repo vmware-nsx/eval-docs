@@ -93,26 +93,26 @@ xxx fix the link + add screenshot of VMware download.
 
 - Log on NSX-T Manager UI.  
 	<p align="center">
-	  <img width=25% height=25% src="/docs/assets/Graphics/2.3.step1.jpg">
+	  <img width=50% height=50% src="/docs/assets/Graphics/2.3.step1.jpg">
 	</p>
 
 - Configuration NSX-T Licence. Under "System - Settings - Licenses", click "Add".  
 	<p align="center">
-	  <img width=25% height=25% src="/docs/assets/Graphics/2.3.step2.jpg">
+	  <img width=50% height=50% src="/docs/assets/Graphics/2.3.step2.jpg">
 	</p>
 
 
 - Register NSX-T in vCenter (to allow the deplyment of NSX elements into vCenter/ESXi from NSX). Under "System - Configuration - Fabric - Compute Managers", click "Add".  
 	<p align="center">
-	  <img width=25% height=25% src="/docs/assets/Graphics/2.3.step3a.jpg">
+	  <img width=50% height=50% src="/docs/assets/Graphics/2.3.step3a.jpg">
 	</p>  
 	<p align="center">
-	  <img width=25% height=25% src="/docs/assets/Graphics/2.3.step3b.jpg">
+	  <img width=50% height=50% src="/docs/assets/Graphics/2.3.step3b.jpg">
 	</p>
 
 - Validate NSX-T registration in vCenter. Under "System - Configuration - Fabric - Compute Managers", click "Refresh" (bottom-left).
 	<p align="center">
-	  <img width=25% height=25% src="/docs/assets/Graphics/2.3.step4.jpg">
+	  <img width=50% height=50% src="/docs/assets/Graphics/2.3.step4.jpg">
 	</p>
 
 </details>
