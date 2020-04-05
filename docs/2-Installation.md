@@ -96,13 +96,15 @@ xxx fix the link + add screenshot of VMware download.
 	  <img width=85% height=85% src="/docs/assets/Graphics/2.3.step1.jpg">
 	</p>
 
-- Configuration NSX-T Licence. Under "System - Settings - Licenses", click "Add".  
+- Configuration NSX-T Licence.  
+Under "System - Settings - Licenses", click "Add".  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.3.step2.jpg">
 	</p>
 
 
-- Register NSX-T in vCenter (to allow the deplyment of NSX elements into vCenter/ESXi from NSX). Under "System - Configuration - Fabric - Compute Managers", click "Add".  
+- Register NSX-T in vCenter (to allow the deplyment of NSX elements into vCenter/ESXi from NSX).  
+Under "System - Configuration - Fabric - Compute Managers", click "Add".  
 	<p align="center">
 	  <img width=50% height=50% src="/docs/assets/Graphics/2.3.step3a.jpg">
 	</p>  
@@ -110,7 +112,8 @@ xxx fix the link + add screenshot of VMware download.
 	  <img width=40% height=40% src="/docs/assets/Graphics/2.3.step3b.jpg">
 	</p>
 
-- Validate NSX-T registration in vCenter. Under "System - Configuration - Fabric - Compute Managers", click "Refresh" (bottom-left).
+- Validate NSX-T registration in vCenter.  
+Under "System - Configuration - Fabric - Compute Managers", click "Refresh" (bottom-left).
 	<p align="center">
 	  <img width=85% height=85% src="/docs/assets/Graphics/2.3.step4.jpg">
 	</p>
@@ -126,8 +129,7 @@ xxx fix the link + add screenshot of VMware download.
 
 - Create Uplink Profile for Transport Nodes (Configuration of "VLAN-Overlay + NIC" for ESXis + Edge Node).  
 Under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add".  
-  - VLAN information for Overlay traffic (= VLAN 12 in lab - see [Requirements-Networking](/docs/1-Requirements.md#Networking))
-  - Number of NIC for "VDS - NSX-T prepared" switch (= 1 NIC in lab)  
+See top graphic for VLAN for Overlay traffic (12) and number of uplinks for "VDS - NSX-T prepared" (1 NIC).  
   	<p align="center">
 	  <img width=50% height=50% src="/docs/assets/Graphics/2.4.step1.jpg">
 	</p>  
