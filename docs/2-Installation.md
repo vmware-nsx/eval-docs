@@ -129,7 +129,7 @@ Under "System - Configuration - Fabric - Compute Managers", click "Refresh" (bot
 
 - Create Uplink Profile for Transport Nodes (Configuration of "VLAN-Overlay + NIC" for ESXis + Edge Node).  
 Under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add".  
-See top graphic for VLAN for Overlay traffic (12) and number of uplinks for "VDS - NSX-T prepared" (1 NIC).  
+*See top graphic for VLAN for Overlay traffic (12) and number of uplinks for "VDS - NSX-T prepared" (1 NIC).*  
   	<p align="center">
 	  <img width=50% height=50% src="/docs/assets/Graphics/2.4.step1.jpg">
 	</p>  
