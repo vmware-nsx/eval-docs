@@ -2,8 +2,7 @@
 ## 2. Installation of NSX-T
 
 <p align="center">
-  <img width=75% height=75% src="/docs/assets/Graphics/2.0.Installation-Design.jpg"><br>
-  <i>Image-Goal: ESXi configuration at the end of that section</i>
+  <img width=75% height=75% src="/docs/assets/Graphics/2.0.Installation-Design.jpg">
 </p>
 
 
@@ -71,7 +70,7 @@ xxx fix the link + add screenshot of VMware download.
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step8.jpg">
 	</p>
 
-- Enter NSX-T Manager information (password, hostname, IP, DNS, NTP). Important: Rolename is "NSX Manager".  
+- Enter NSX-T Manager information (passwords, hostname, IP, DNS, NTP). Important: Rolename is "NSX Manager".  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step9.jpg">
 	</p>
@@ -97,14 +96,23 @@ xxx fix the link + add screenshot of VMware download.
 	  <img width=25% height=25% src="/docs/assets/Graphics/2.3.step1.jpg">
 	</p>
 
-- Register NSX-T in vCenter (to allow the deplyment of NSX elements into vCenter/ESXi from NSX).  
+- Configuration NSX-T Licence. Under "System - Settings - Licenses", click "Add".  
 	<p align="center">
 	  <img width=25% height=25% src="/docs/assets/Graphics/2.3.step2.jpg">
 	</p>
 
-- Validate NSX-T registration in vCenter.  
+
+- Register NSX-T in vCenter (to allow the deplyment of NSX elements into vCenter/ESXi from NSX). Under "System - Configuration - Fabric - Compute Managers", click "Add".  
 	<p align="center">
-	  <img width=25% height=25% src="/docs/assets/Graphics/2.3.step3.jpg">
+	  <img width=25% height=25% src="/docs/assets/Graphics/2.3.step3a.jpg">
+	</p>  
+	<p align="center">
+	  <img width=25% height=25% src="/docs/assets/Graphics/2.3.step3b.jpg">
+	</p>
+
+- Validate NSX-T registration in vCenter. Under "System - Configuration - Fabric - Compute Managers", click "Refresh" (bottom-left).
+	<p align="center">
+	  <img width=25% height=25% src="/docs/assets/Graphics/2.3.step4.jpg">
 	</p>
 
 </details>
