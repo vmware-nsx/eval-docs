@@ -124,12 +124,19 @@ xxx fix the link + add screenshot of VMware download.
 
 ##### Uplink Profile Creation
 
-- From NSX-T Manager under "xxx - xxx", create Uplink Profile for Transport Nodes (ESXi + Edge Node). 
+- Create Uplink Profile for Transport Nodes (Configuration of "VLAN-Overlay + NIC" for ESXis + Edge Node).
   - VLAN information for Overlay traffic (= VLAN 12 in lab - see [Requirements-Networking](/docs/1-Requirements.md#Networking))
   - Number of NIC for "VDS - NSX-T prepared" switch (= 1 NIC in lab)  
+  Under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add".  
 	<p align="center">
-	  <img width=25% height=25% src="/docs/assets/Graphics/2.4.step1.jpg">
+	  <img width=50% height=50% src="/docs/assets/Graphics/2.4.step1.jpg">
+	</p>  
+
+- Configure NSX-T for ESXi. Under "System - Configuration - Fabric - Node - Host Transport Nodes - Managed by", select "Lab-vCenter".  
+	<p align="center">
+	  <img width=85% height=85% src="/docs/assets/Graphics/2.4.step1.jpg">
 	</p>
+  - Configure each ESXi 
 
 
 From NSX-T Manager under "xxx - xxx", create Uplink Profile for Transport Nodes (ESXi + Edge Node):
