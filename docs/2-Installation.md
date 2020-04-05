@@ -135,6 +135,8 @@ Under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add
 	  <img width=50% height=50% src="/docs/assets/Graphics/2.4.step1.jpg">
 	</p>  
 
+##### Installion of NSX in ESXi
+
 - Configure NSX-T for ESXi.  
   - Select each ESXi of vCenter-Cluster  
   Under "System - Configuration - Fabric - Node - Host Transport Nodes - Managed by", select "Lab-vCenter".  
@@ -149,20 +151,6 @@ Under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.step3b.jpg">
 	</p>
-
-
-
-From NSX-T Manager under "xxx - xxx", create Uplink Profile for Transport Nodes (ESXi + Edge Node):
-- VLAN information for Overlay traffic (= VLAN 12 in lab)
-- Number of NIC for "VDS - NSX-T prepared" switch (= 1 NIC in lab)  
-xxx Add the screenshots
-
-
-##### Installion of NSX in ESXi
-
-From NSX-T Manager under "xxx - xxx", install NSX-T in the ESXi.  
-xxx Add the screenshots
-
 
 </details>
 
