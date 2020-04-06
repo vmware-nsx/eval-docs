@@ -241,16 +241,16 @@ and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*
 From vCenter, under "Networking", select the VDS-NSX, and right-click to "New Distributed Port Group...".
 *See the top of page for this Port Group on VDS.*  
   	<p align="center">
-	  <img width=40% height=40% src="/docs/assets/Graphics/2.2.1.step1.jpg">
+	  <img width=40% height=40% src="/docs/assets/Graphics/2.5.1.step1.jpg">
 	</p>  
   	<p align="center">
-	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step2.jpg">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.5.1.step2.jpg">
 	</p>  
   	<p align="center">
-	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step3.jpg">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.5.1.step3.jpg">
 	</p>  
   	<p align="center">
-	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step4.jpg">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.5.1.step4.jpg">
 	</p>  
 
 
