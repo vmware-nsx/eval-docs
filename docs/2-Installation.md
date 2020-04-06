@@ -135,13 +135,13 @@ From vCenter, under "Networking", select the Data Center, and right-click to cre
 	  <img width=40% height=40% src="/docs/assets/Graphics/2.4.1.step1.jpg">
 	</p>  
   	<p align="center">
-	  <img width=40% height=40% src="/docs/assets/Graphics/2.4.1.step2.jpg">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step2.jpg">
 	</p>  
   	<p align="center">
-	  <img width=50% height=50% src="/docs/assets/Graphics/2.4.1.step3.jpg">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step3.jpg">
 	</p>  
   	<p align="center">
-	  <img width=60% height=60% src="/docs/assets/Graphics/2.4.1.step4.jpg">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step4.jpg">
 	</p>  
   	<p align="center">
 	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step5.jpg">
