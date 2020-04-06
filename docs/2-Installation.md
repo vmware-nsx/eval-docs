@@ -147,6 +147,32 @@ From vCenter, under "Networking", select the Data Center, and right-click to cre
 	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step5.jpg">
 	</p>  
 
+- Add that VDS-NSX to ESXi.  
+From vCenter, under "Networking", select the VDS-NSX, and right-click to "Add and Manage Hosts...".  
+  	<p align="center">
+	  <img width=40% height=40% src="/docs/assets/Graphics/2.4.1.step6.jpg">
+	</p>  
+  	<p align="center">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step7.jpg">
+	</p>  
+  	<p align="center">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step8.jpg">
+	</p>  
+  	<p align="center">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step9.jpg">
+	</p>  
+  	<p align="center">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step10.jpg">
+	</p>  
+  	<p align="center">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step11.jpg">
+	</p>  
+  	<p align="center">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step12.jpg">
+	</p>  
+
+
+
 ##### 4.2. Uplink Profile Creation
 
 - Create Uplink Profile for Transport Nodes (Configuration of "VLAN-Overlay + NIC" for ESXis + Edge Node).  
