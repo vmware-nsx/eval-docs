@@ -316,6 +316,12 @@ Under "System - Configuration - Fabric - Nodes - Edge Clusters", click "Add".
 	  <img width=50% height=50% src="/docs/assets/Graphics/2.5.3.step1.jpg">
 	</p>  
 
+- Validate Edge Cluster creation.  
+Under "System - Configuration - Fabric - Nodes - Edge Clusters", click "Refresh".  
+	<p align="center">
+	  <img width=50% height=50% src="/docs/assets/Graphics/2.5.3.step2.jpg">
+	</p>  
+
 
 </details>
 
