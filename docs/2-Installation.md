@@ -128,6 +128,9 @@ Under "System - Configuration - Fabric - Compute Managers", click "Refresh" (bot
 
 ##### 4.1. New VDS-NSX creation
 
+<details>
+<summary>"Click to expand"</summary>
+
 - Create New VDS-NSX (for future NSX-T Logical Swtiches).  
 From vCenter, under "Networking", select the Data Center, and right-click to create a "New Distributed Switch".  
 *See the top of page for "Number of uolinks (1)", and "Default Port Group (none)"*  
@@ -171,6 +174,7 @@ From vCenter, under "Networking", select the VDS-NSX, and right-click to "Add an
 	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step12.jpg">
 	</p>  
 
+</details>
 
 
 ##### 4.2. Uplink Profile Creation
