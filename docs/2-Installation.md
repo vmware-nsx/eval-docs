@@ -14,6 +14,8 @@
 | NSX-T Manager             | 19.168.50.5   | -             |
 | Edge Node                 | 19.168.50.31  | 192.168.51.31 |
 
+---
+
 ### Steps:
 
 #### 1. Download of NSX Manager OVA
@@ -25,6 +27,7 @@ Download NSX-T 3.0 Manager for VMware ESXi OVA file [download link xxx](https://
 xxx fix the link + add screenshot of VMware download.
 </details>
 
+---
 
 #### 2. Deployment of NSX-T Manager
 <details>
@@ -86,6 +89,7 @@ xxx fix the link + add screenshot of VMware download.
 	</p>
 </details>
 
+---
 
 #### 3. Register NSX-T to vCenter
 <details>
@@ -121,6 +125,7 @@ Under "System - Configuration - Fabric - Compute Managers", click "Refresh" (bot
 
 </details>
 
+---
 
 #### 4. ESXi Host Preparation
 <details>
@@ -236,6 +241,7 @@ and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*
 
 </details>
 
+---
 
 #### 5. Deployement of Edge Node
 
@@ -304,7 +310,7 @@ Under "System - Configuration - Fabric - Nodes - Edge Transport Nodes", click "R
 
 </details>
 
-##### 5.2. Creation of Edge Clsuter
+##### 5.3. Creation of Edge Cluster
 
 <details>
 <summary>"Click to expand"</summary>
@@ -326,3 +332,8 @@ Under "System - Configuration - Fabric - Nodes - Edge Clusters", click "Refresh"
 </details>
 
 </details>
+
+---
+
+[***Next Step: 3. NSX Evaluation***](/docs2/3-NSX-Evaluation.md)
+
