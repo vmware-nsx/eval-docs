@@ -126,30 +126,51 @@ Under "System - Configuration - Fabric - Compute Managers", click "Refresh" (bot
 <details>
 <summary>"Click to expand"</summary>
 
-##### 4.1. Uplink Profile Creation
+##### 4.1. New VDS-NSX creation
 
-- Create Uplink Profile for Transport Nodes (Configuration of "VLAN-Overlay + NIC" for ESXis + Edge Node).  
-Under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add".  
-*See the top of page for VLAN for Overlay traffic information (12) and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*  
+- Create New VDS-NSX (for future NSX-T Logical Swtiches).  
+From vCenter, under "Networking", select the Data Center, and right-click to create a "New Distributed Switch".  
+*See the top of page for "Number of uolinks (1)", and "Default Port Group (none)"*  
   	<p align="center">
-	  <img width=50% height=50% src="/docs/assets/Graphics/2.4.step1.jpg">
+	  <img width=40% height=40% src="/docs/assets/Graphics/2.4.1.step1.jpg">
+	</p>  
+  	<p align="center">
+	  <img width=40% height=40% src="/docs/assets/Graphics/2.4.1.step2.jpg">
+	</p>  
+  	<p align="center">
+	  <img width=50% height=50% src="/docs/assets/Graphics/2.4.1.step3.jpg">
+	</p>  
+  	<p align="center">
+	  <img width=60% height=60% src="/docs/assets/Graphics/2.4.1.step4.jpg">
+	</p>  
+  	<p align="center">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step5.jpg">
 	</p>  
 
-##### 4.2. Installion of NSX in ESXi
+##### 4.2. Uplink Profile Creation
+
+- Create Uplink Profile for Transport Nodes (Configuration of "VLAN-Overlay + NIC" for ESXis + Edge Node).  
+From NSX-T, under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add".  
+*See the top of page for VLAN for Overlay traffic information (12) and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*  
+  	<p align="center">
+	  <img width=50% height=50% src="/docs/assets/Graphics/2.4.2.step1.jpg">
+	</p>  
+
+##### 4.3. Installion of NSX in ESXi
 
 - Configure NSX-T for ESXi.  
   - Select each ESXi of vCenter-Cluster  
   Under "System - Configuration - Fabric - Node - Host Transport Nodes - Managed by", select "Lab-vCenter".  
 	<p align="center">
-	  <img width=85% height=85% src="/docs/assets/Graphics/2.4.step2.jpg">
+	  <img width=85% height=85% src="/docs/assets/Graphics/2.4.3.step1.jpg">
 	</p>   
   - For each ESXi, configure its new "VDS - NSX-T prepared"  
   Click "Configure NSX".  
 	<p align="center">
-	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.step3a.jpg">
+	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.3.step2a.jpg">
 	</p>
 	<p align="center">
-	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.step3b.jpg">
+	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.3.step2b.jpg">
 	</p>
 
 </details>
