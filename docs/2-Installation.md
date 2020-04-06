@@ -313,7 +313,7 @@ Under "System - Configuration - Fabric - Nodes - Edge Transport Nodes", click "R
 Under "System - Configuration - Fabric - Nodes - Edge Clusters", click "Add".  
 *Select EdgeNode1 as member of that Edge Cluster.*
 	<p align="center">
-	  <img width=85% height=85% src="/docs/assets/Graphics/2.5.3.step1.jpg">
+	  <img width=50% height=50% src="/docs/assets/Graphics/2.5.3.step1.jpg">
 	</p>  
 
 
