@@ -174,6 +174,15 @@ From vCenter, under "Networking", select the VDS-NSX, and right-click to "Add an
 	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step12.jpg">
 	</p>  
 
+- Configure that VDS-NSX with an large MTU (at least 1700).  
+From vCenter, under "Networking", select the VDS-NSX, and right-click to "Add and Manage Hosts...".  
+  	<p align="center">
+	  <img width=40% height=40% src="/docs/assets/Graphics/2.4.1.step13.jpg">
+	</p>  
+  	<p align="center">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step14.jpg">
+	</p>  
+
 </details>
 
 
