@@ -179,6 +179,9 @@ From vCenter, under "Networking", select the VDS-NSX, and right-click to "Add an
 
 ##### 4.2. Uplink Profile Creation
 
+<details>
+<summary>"Click to expand"</summary>
+
 - Create Uplink Profile for Transport Nodes (Configuration of "VLAN-Overlay + NIC" for ESXis + Edge Node).  
 From NSX-T, under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add".  
 *See the top of page for VLAN for Overlay traffic information (12) and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*  
@@ -186,7 +189,13 @@ From NSX-T, under "System - Configuration - Fabric - Profiles - Uplink Profiles"
 	  <img width=50% height=50% src="/docs/assets/Graphics/2.4.2.step1.jpg">
 	</p>  
 
+</details>
+
+
 ##### 4.3. Installion of NSX in ESXi
+
+<details>
+<summary>"Click to expand"</summary>
 
 - Configure NSX-T for ESXi.  
   - Select each ESXi of vCenter-Cluster  
@@ -202,6 +211,8 @@ From NSX-T, under "System - Configuration - Fabric - Profiles - Uplink Profiles"
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.3.step2b.jpg">
 	</p>
+
+</details>
 
 </details>
 
