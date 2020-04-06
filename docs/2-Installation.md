@@ -223,6 +223,12 @@ and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.3.step2b.jpg">
 	</p>  
   - For each ESXi, validate "VDS - NSX-T prepared" creation.  
+  *Select Type = VDS (to enable NSX into the existing "VDS-NSX" vCenter Distributed Switch),  
+  Mode = Standard,  
+  Transport Zone = "nsx-overlay-transportzone" (Default TZ for overlay traffic),  
+  Uplink Profile = "Lab-HostProfile" (with VLAN-Overlay information),  
+  IP (TEP) = Information on top of the page,  
+  Uplink = ESX VDS Uplink1.*
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.3.step3.jpg">
 	</p>  
@@ -260,7 +266,8 @@ From vCenter, under "Networking", select the VDS-NSX, and right-click to "New Di
 Under "System - Configuration - Fabric - Nodes - Edge Transport Nodes", click "Add Edge VM".  
 *Select Form Factor Medium (useful if you want to test later Load-Balancing),  
 enable SSH for admin and root if you want to try later deeper troubleshooting,  
-Management and Switch (TEP) IP addresses on the top of the page).*
+Management and Switch (TEP) IP addresses on the top of the page), and  
+Transport Zones = "nsx-overlay-transportzone" (default TZ for Overlay traffic) and "nsx-vlan-transportzone" (default TZ for VLAN traffic).*
 	<p align="center">
 	  <img width=85% height=85% src="/docs/assets/Graphics/2.5.2.step1.jpg">
 	</p>  
