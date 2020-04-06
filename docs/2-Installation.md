@@ -133,7 +133,8 @@ Under "System - Configuration - Fabric - Compute Managers", click "Refresh" (bot
 
 - Create New VDS-NSX (for future NSX-T Logical Swtiches).  
 From vCenter, under "Networking", select the Data Center, and right-click to create a "New Distributed Switch".  
-*See the top of page for "Number of uplinks (1)", and "Default Port Group (none)"*  
+*See the top of page for "Number of uplinks (1)",  
+and "Default Port Group (none)".*  
   	<p align="center">
 	  <img width=40% height=40% src="/docs/assets/Graphics/2.4.1.step1.jpg">
 	</p>  
@@ -193,7 +194,8 @@ From vCenter, under "Networking", select the VDS-NSX, and right-click to "Add an
 
 - Create Uplink Profile for Transport Nodes (Configuration of "VLAN-Overlay + NIC" for ESXis + Edge Node).  
 From NSX-T, under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add".  
-*See the top of page for VLAN for Overlay traffic information (12) and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*  
+*See the top of page for VLAN for Overlay traffic information (12),  
+and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*  
   	<p align="center">
 	  <img width=50% height=50% src="/docs/assets/Graphics/2.4.2.step1.jpg">
 	</p>  
@@ -237,7 +239,7 @@ From NSX-T, under "System - Configuration - Fabric - Profiles - Uplink Profiles"
 
 - Create a Port Group "All VLAN" (= VLAN Tag 0-4096) on VDS.  
 From vCenter, under "Networking", select the VDS-NSX, and right-click to "New Distributed Port Group...".
-*See the top of page for this Port Group on VDS"*  
+*See the top of page for this Port Group on VDS.*  
   	<p align="center">
 	  <img width=40% height=40% src="/docs/assets/Graphics/2.2.1.step1.jpg">
 	</p>  
@@ -256,7 +258,9 @@ From vCenter, under "Networking", select the VDS-NSX, and right-click to "New Di
 
 - Deploy 1 Edge Node on ESXi.  
 Under "System - Configuration - Fabric - Nodes - Edge Transport Nodes", click "Add Edge VM".  
-*Select Form Factor Medium (useful if you want to test later Load-Balancing), enable SSH for admin and root if you want to try later deeper troubleshooting, Management and Switch (TEP) IP addresses on the top of the page)*
+*Select Form Factor Medium (useful if you want to test later Load-Balancing),  
+enable SSH for admin and root if you want to try later deeper troubleshooting,  
+Management and Switch (TEP) IP addresses on the top of the page).*
 	<p align="center">
 	  <img width=85% height=85% src="/docs/assets/Graphics/2.5.2.step1.jpg">
 	</p>  
@@ -276,9 +280,12 @@ Under "System - Configuration - Fabric - Nodes - Edge Transport Nodes", click "A
 	  <img width=85% height=85% src="/docs/assets/Graphics/2.5.2.step6.jpg">
 	</p>  
 
+- Validate Edge Node deployment.  
+Under "System - Configuration - Fabric - Nodes - Edge Transport Nodes", click "Refresh" (bottom UI)  
+	<p align="center">
+	  <img width=85% height=85% src="/docs/assets/Graphics/2.5.2.step7.jpg">
+	</p>  
 
-From NSX-T Manager, deploy 1 Edge Node + configure it.  
-xxx Add the screenshots
 
 </details>
 
