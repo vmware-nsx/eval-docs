@@ -238,10 +238,15 @@ and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*
 
 
 #### 5. Deployement of Edge Node
+
+
 <details>
 <summary>"Click to expand"</summary>
 
 ##### 5.1. Creation of VDS Port Group "All VLAN"
+
+<details>
+<summary>"Click to expand"</summary>
 
 - Create a Port Group "All VLAN" (= VLAN Tag 0-4096) on VDS.  
 From vCenter, under "Networking", select the VDS-NSX, and right-click to "New Distributed Port Group...".
@@ -259,8 +264,12 @@ From vCenter, under "Networking", select the VDS-NSX, and right-click to "New Di
 	  <img width=70% height=70% src="/docs/assets/Graphics/2.5.1.step4.jpg">
 	</p>  
 
+</details>
 
 ##### 5.2. Installation of NSX Edge Node
+
+<details>
+<summary>"Click to expand"</summary>
 
 - Deploy 1 Edge Node on ESXi.  
 Under "System - Configuration - Fabric - Nodes - Edge Transport Nodes", click "Add Edge VM".  
@@ -293,7 +302,21 @@ Under "System - Configuration - Fabric - Nodes - Edge Transport Nodes", click "R
 	  <img width=85% height=85% src="/docs/assets/Graphics/2.5.2.step7.jpg">
 	</p>  
 
+</details>
+
+##### 5.2. Creation of Edge Clsuter
+
+<details>
+<summary>"Click to expand"</summary>
+
+- Create 1 Edge Cluster with EdgeNode1 member.  
+Under "System - Configuration - Fabric - Nodes - Edge Clusters", click "Add".  
+*Select EdgeNode1 as member of that Edge Cluster.*
+	<p align="center">
+	  <img width=85% height=85% src="/docs/assets/Graphics/2.5.3.step1.jpg">
+	</p>  
+
 
 </details>
 
-
+</details>
