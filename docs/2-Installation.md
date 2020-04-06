@@ -126,7 +126,7 @@ Under "System - Configuration - Fabric - Compute Managers", click "Refresh" (bot
 <details>
 <summary>"Click to expand"</summary>
 
-##### Uplink Profile Creation
+##### 4.1. Uplink Profile Creation
 
 - Create Uplink Profile for Transport Nodes (Configuration of "VLAN-Overlay + NIC" for ESXis + Edge Node).  
 Under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add".  
@@ -135,7 +135,7 @@ Under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add
 	  <img width=50% height=50% src="/docs/assets/Graphics/2.4.step1.jpg">
 	</p>  
 
-##### Installion of NSX in ESXi
+##### 4.2. Installion of NSX in ESXi
 
 - Configure NSX-T for ESXi.  
   - Select each ESXi of vCenter-Cluster  
@@ -159,11 +159,11 @@ Under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add
 <details>
 <summary>"Click to expand"</summary>
 
-##### Creation of VDS Port Group "All VLAN"
+##### 5.1. Creation of VDS Port Group "All VLAN"
 From vCenter, create a Port Group "All VLAN" (= VLAN Tag 1-4096).  
 xxx Add the screenshots
 
-##### Installation of NSX Edge Node
+##### 5.2. Installation of NSX Edge Node
 From NSX-T Manager, deploy 1 Edge Node + configure it.  
 xxx Add the screenshots
 

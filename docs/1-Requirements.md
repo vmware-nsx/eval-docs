@@ -23,7 +23,7 @@ Here are the requirements for NSX-T Evaluation.
 
 | Storage | Shared storage - Recommended for live vMotion tests |
 |:--------|:---------------------------------------------------:|
-| Size    |                       xxx GB                        |
+| Size    |                       500 GB                        |
 
 </details>
 
