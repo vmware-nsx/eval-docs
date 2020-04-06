@@ -92,7 +92,7 @@ xxx fix the link + add screenshot of VMware download.
 <summary>"Click to expand"</summary>
 
 - Log on NSX-T Manager UI.  
-In a browserrt: https://192.168.50.5/.  
+In a browser: https://192.168.50.5/.  
 	<p align="center">
 	  <img width=85% height=85% src="/docs/assets/Graphics/2.3.step1.jpg">
 	</p>
@@ -133,7 +133,7 @@ Under "System - Configuration - Fabric - Compute Managers", click "Refresh" (bot
 
 - Create New VDS-NSX (for future NSX-T Logical Swtiches).  
 From vCenter, under "Networking", select the Data Center, and right-click to create a "New Distributed Switch".  
-*See the top of page for "Number of uolinks (1)", and "Default Port Group (none)"*  
+*See the top of page for "Number of uplinks (1)", and "Default Port Group (none)"*  
   	<p align="center">
 	  <img width=40% height=40% src="/docs/assets/Graphics/2.4.1.step1.jpg">
 	</p>  
@@ -216,11 +216,14 @@ From NSX-T, under "System - Configuration - Fabric - Profiles - Uplink Profiles"
   Click "Configure NSX".  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.3.step2a.jpg">
-	</p>
+	</p>  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.3.step2b.jpg">
-	</p>
-
+	</p>  
+  - For each ESXi, validate "VDS - NSX-T prepared" creation.  
+	<p align="center">
+	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.3.step3.jpg">
+	</p>  
 </details>
 
 </details>
@@ -231,10 +234,49 @@ From NSX-T, under "System - Configuration - Fabric - Profiles - Uplink Profiles"
 <summary>"Click to expand"</summary>
 
 ##### 5.1. Creation of VDS Port Group "All VLAN"
-From vCenter, create a Port Group "All VLAN" (= VLAN Tag 1-4096).  
-xxx Add the screenshots
+
+- Create a Port Group "All VLAN" (= VLAN Tag 0-4096) on VDS.  
+From vCenter, under "Networking", select the VDS-NSX, and right-click to "New Distributed Port Group...".
+*See the top of page for this Port Group on VDS"*  
+  	<p align="center">
+	  <img width=40% height=40% src="/docs/assets/Graphics/2.2.1.step1.jpg">
+	</p>  
+  	<p align="center">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step2.jpg">
+	</p>  
+  	<p align="center">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step3.jpg">
+	</p>  
+  	<p align="center">
+	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step4.jpg">
+	</p>  
+
 
 ##### 5.2. Installation of NSX Edge Node
+
+- Deploy 1 Edge Node on ESXi.  
+Under "System - Configuration - Fabric - Nodes - Edge Transport Nodes", click "Add Edge VM".  
+*Select Form Factor Medium (useful if you want to test later Load-Balancing), enable SSH for admin and root if you want to try later deeper troubleshooting, Management and Switch (TEP) IP addresses on the top of the page)*
+	<p align="center">
+	  <img width=85% height=85% src="/docs/assets/Graphics/2.5.2.step1.jpg">
+	</p>  
+	<p align="center">
+	  <img width=85% height=85% src="/docs/assets/Graphics/2.5.2.step2.jpg">
+	</p>  
+	<p align="center">
+	  <img width=85% height=85% src="/docs/assets/Graphics/2.5.2.step3.jpg">
+	</p>  
+	<p align="center">
+	  <img width=85% height=85% src="/docs/assets/Graphics/2.5.2.step4.jpg">
+	</p>  
+	<p align="center">
+	  <img width=85% height=85% src="/docs/assets/Graphics/2.5.2.step5.jpg">
+	</p>  
+	<p align="center">
+	  <img width=85% height=85% src="/docs/assets/Graphics/2.5.2.step6.jpg">
+	</p>  
+
+
 From NSX-T Manager, deploy 1 Edge Node + configure it.  
 xxx Add the screenshots
 

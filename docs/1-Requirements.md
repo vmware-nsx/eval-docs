@@ -18,7 +18,7 @@ Here are the requirements for NSX-T Evaluation.
 | vCenter-Cluster  |   1+   |   n/a   |                                                         n/a                                                         |
 | ESXi per Cluster |   2+   |   7.0   | [download link xxx](https://my.vmware.com/en/web/vmware/info/slug/networking_security/vmware_nsx_t_data_center/2_x) |
 | CPU per ESXi     |   8+   |   n/a   |                                                         n/a                                                         |
-| RAM per ESXi     | 64GB+  |   n/a   |                                                         n/a                                                         |
+| RAM per ESXi     | 32GB+  |   n/a   |                                                         n/a                                                         |
 | NIC per ESXi     |   2+   |   n/a   |                                                         n/a                                                         |
 
 | Storage | Shared storage - Recommended for live vMotion tests |
