@@ -2,8 +2,11 @@
 ## 2. Installation of NSX-T
 
 <p align="center">
-  <img width=75% height=75% src="/docs/assets/Graphics/2.0.Installation-Design.jpg">
-</p>
+  <img width=75% height=75% src="/docs/assets/Graphics/2.0.Installation-Design-1.jpg">
+</p>  
+<p align="center">
+  <img width=75% height=75% src="/docs/assets/Graphics/2.0.Installation-Design-2.jpg">
+</p>  
 
 
 | IP of each Element        | Management    | Overlay       |
