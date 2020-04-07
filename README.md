@@ -13,7 +13,7 @@
 ---
 
 ## Overview
-Offer a "step by step" NSX Evaluation Guide to test (some) NSX Services:
+The goal of this document is to offer a "step by step" NSX Evaluation Guide to test (some) NSX Services:
 - Security Services
   - Micro-Segmentation (DFW)
 - Logical Networking Services
