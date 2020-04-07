@@ -29,8 +29,8 @@ Also to limit the ESXi/Storage requirements, this evaluation does not cover high
 
 ---
 
-3. [NSX Evaluation](/docs2/3-NSX-Evaluation.md)
-   1. [Security only (no Logical Network)](/docs2/3.1-Security-Only.md)
+3. [NSX Evaluation](/docs/3-NSX-Evaluation.md)
+   1. [Security only (no Logical Network)](/docs/3.1-Security-Only.md)
    1. Logical Network + Security
    1. Operation Tools
 

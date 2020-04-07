@@ -136,7 +136,7 @@ Under "System - Configuration - Fabric - Compute Managers", click "Refresh" (bot
 <details>
 <summary>"Click to expand"</summary>
 
-- Create New VDS-NSX (for future NSX-T Logical Swtiches).  
+- Create New VDS-NSX (for future NSX-T Logical Switches).  
 From vCenter, under "Networking", select the Data Center, and right-click to create a "New Distributed Switch".  
 *For this lab, see the top of page for "Number of uplinks (1)",  
 and "Default Port Group (none)".*  
@@ -197,10 +197,10 @@ From vCenter, under "Networking", select the VDS-NSX, and right-click to "Add an
 <details>
 <summary>"Click to expand"</summary>
 
-- Create Uplink Profile for Transport Nodes (Configuration of "VLAN-Overlay + NIC" for ESXis + Edge Node).  
+- Create Uplink Profile for Transport Nodes ("VLAN-Overlay + NIC" information for ESXis + Edge Node).  
 From NSX-T, under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add".  
 *For this lab, see the top of page for VLAN for Overlay traffic information (12),  
-and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*  
+and number of uplinks for "VDS - NSX-T" information (1 NIC).*  
   	<p align="center">
 	  <img width=50% height=50% src="/docs/assets/Graphics/2.4.2.step1.jpg">
 	</p>  
@@ -216,10 +216,16 @@ and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*
 - Configure NSX-T for ESXi.  
   - Select each ESXi of vCenter-Cluster  
   Under "System - Configuration - Fabric - Node - Host Transport Nodes - Managed by", select "Lab-vCenter".  
-	<p align="center">
+  *Select Type = VDS (to enable NSX into the existing "VDS-NSX" vCenter Distributed Switch),  
+  Mode = Standard,  
+  Transport Zone = "nsx-overlay-transportzone" (Default TZ for overlay traffic) + "nsx-vlan-transportzone" (Default TZ for VLAN traffic),  
+  Uplink Profile = "Lab-HostProfile" (with VLAN-Overlay information),  
+  IP (TEP) = Information on top of the page,  
+  Uplink = ESX VDS Uplink1.*
+  	<p align="center">
 	  <img width=85% height=85% src="/docs/assets/Graphics/2.4.3.step1.jpg">
 	</p>   
-  - For each ESXi, configure its new "VDS - NSX-T prepared"  
+  - For each ESXi, configure its new "VDS - NSX-T"  
   Click "Configure NSX".  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.3.step2a.jpg">
@@ -227,13 +233,8 @@ and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.3.step2b.jpg">
 	</p>  
-  - For each ESXi, validate "VDS - NSX-T prepared" creation.  
-  *Select Type = VDS (to enable NSX into the existing "VDS-NSX" vCenter Distributed Switch),  
-  Mode = Standard,  
-  Transport Zone = "nsx-overlay-transportzone" (Default TZ for overlay traffic) + "nsx-vlan-transportzone" (Default TZ for VLAN traffic),  
-  Uplink Profile = "Lab-HostProfile" (with VLAN-Overlay information),  
-  IP (TEP) = Information on top of the page,  
-  Uplink = ESX VDS Uplink1.*
+  - For each ESXi, validate "VDS - NSX-T" creation.  
+
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.3.step3.jpg">
 	</p>  
@@ -335,5 +336,5 @@ Under "System - Configuration - Fabric - Nodes - Edge Clusters", click "Refresh"
 
 ---
 
-[***Next Step: 3. NSX Evaluation***](/docs2/3-NSX-Evaluation.md)
+[***Next Step: 3. NSX Evaluation***](/docs/3-NSX-Evaluation.md)
 

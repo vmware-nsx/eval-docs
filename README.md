@@ -32,8 +32,8 @@ Also to limit the ESXi/Storage requirements, this evaluation does not cover high
 This document table of content is:
 1. [Requirements](/docs/1-Requirements.md)
 1. [Installation of NSX](/docs/2-Installation.md)
-1. [NSX Evaluation](/docs2/3-NSX-Evaluation.md)
-   1. [Security only (no Logical Network)](/docs2/3.1-Security-Only.md)
+1. [NSX Evaluation](/docs/3-NSX-Evaluation.md)
+   1. [Security only (no Logical Network)](/docs/3.1-Security-Only.md)
    1. Logical Network + Security
    1. Operation Tools
 
