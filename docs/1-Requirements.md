@@ -3,7 +3,7 @@
 
 Here are the requirements for NSX-T Evaluation.
 
-#### Compute & Storage
+### Compute & Storage
 
 <details>
 <summary>"Click to expand"</summary>
@@ -29,7 +29,7 @@ Here are the requirements for NSX-T Evaluation.
 
 ---
 
-#### Networking
+### Networking
 
 <details>
 <summary>"Click to expand"</summary>

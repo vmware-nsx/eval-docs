@@ -18,7 +18,7 @@
 
 ### Steps:
 
-#### 1. Download of NSX Manager OVA
+### 1. Download of NSX Manager OVA
 <details>
 <summary>"Click to expand"</summary>
 
@@ -29,7 +29,7 @@ xxx fix the link + add screenshot of VMware download.
 
 ---
 
-#### 2. Deployment of NSX-T Manager
+### 2. Deployment of NSX-T Manager
 <details>
 <summary>"Click to expand"</summary>
 
@@ -91,7 +91,7 @@ xxx fix the link + add screenshot of VMware download.
 
 ---
 
-#### 3. Register NSX-T to vCenter
+### 3. Register NSX-T to vCenter
 <details>
 <summary>"Click to expand"</summary>
 
@@ -127,18 +127,18 @@ Under "System - Configuration - Fabric - Compute Managers", click "Refresh" (bot
 
 ---
 
-#### 4. ESXi Host Preparation
+### 4. ESXi Host Preparation
 <details>
 <summary>"Click to expand"</summary>
 
-##### 4.1. New VDS-NSX creation
+#### 4.1. New VDS-NSX creation
 
 <details>
 <summary>"Click to expand"</summary>
 
 - Create New VDS-NSX (for future NSX-T Logical Swtiches).  
 From vCenter, under "Networking", select the Data Center, and right-click to create a "New Distributed Switch".  
-*See the top of page for "Number of uplinks (1)",  
+*For this lab, see the top of page for "Number of uplinks (1)",  
 and "Default Port Group (none)".*  
   	<p align="center">
 	  <img width=40% height=40% src="/docs/assets/Graphics/2.4.1.step1.jpg">
@@ -192,14 +192,14 @@ From vCenter, under "Networking", select the VDS-NSX, and right-click to "Add an
 </details>
 
 
-##### 4.2. Uplink Profile Creation
+#### 4.2. Uplink Profile Creation
 
 <details>
 <summary>"Click to expand"</summary>
 
 - Create Uplink Profile for Transport Nodes (Configuration of "VLAN-Overlay + NIC" for ESXis + Edge Node).  
 From NSX-T, under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add".  
-*See the top of page for VLAN for Overlay traffic information (12),  
+*For this lab, see the top of page for VLAN for Overlay traffic information (12),  
 and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*  
   	<p align="center">
 	  <img width=50% height=50% src="/docs/assets/Graphics/2.4.2.step1.jpg">
@@ -208,7 +208,7 @@ and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*
 </details>
 
 
-##### 4.3. Installion of NSX in ESXi
+#### 4.3. Installion of NSX in ESXi
 
 <details>
 <summary>"Click to expand"</summary>
@@ -230,7 +230,7 @@ and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*
   - For each ESXi, validate "VDS - NSX-T prepared" creation.  
   *Select Type = VDS (to enable NSX into the existing "VDS-NSX" vCenter Distributed Switch),  
   Mode = Standard,  
-  Transport Zone = "nsx-overlay-transportzone" (Default TZ for overlay traffic),  
+  Transport Zone = "nsx-overlay-transportzone" (Default TZ for overlay traffic) + "nsx-vlan-transportzone" (Default TZ for VLAN traffic),  
   Uplink Profile = "Lab-HostProfile" (with VLAN-Overlay information),  
   IP (TEP) = Information on top of the page,  
   Uplink = ESX VDS Uplink1.*
@@ -243,20 +243,20 @@ and number of uplinks for "VDS - NSX-T prepared" information (1 NIC).*
 
 ---
 
-#### 5. Deployement of Edge Node
+### 5. Deployement of Edge Node
 
 
 <details>
 <summary>"Click to expand"</summary>
 
-##### 5.1. Creation of VDS Port Group "All VLAN"
+#### 5.1. Creation of VDS Port Group "All VLAN"
 
 <details>
 <summary>"Click to expand"</summary>
 
 - Create a Port Group "All VLAN" (= VLAN Tag 0-4096) on VDS.  
 From vCenter, under "Networking", select the VDS-NSX, and right-click to "New Distributed Port Group...".
-*See the top of page for this Port Group on VDS.*  
+*For this lab, see the top of page for this Port Group on VDS.*  
   	<p align="center">
 	  <img width=40% height=40% src="/docs/assets/Graphics/2.5.1.step1.jpg">
 	</p>  
@@ -272,7 +272,7 @@ From vCenter, under "Networking", select the VDS-NSX, and right-click to "New Di
 
 </details>
 
-##### 5.2. Installation of NSX Edge Node
+#### 5.2. Installation of NSX Edge Node
 
 <details>
 <summary>"Click to expand"</summary>
@@ -310,7 +310,7 @@ Under "System - Configuration - Fabric - Nodes - Edge Transport Nodes", click "R
 
 </details>
 
-##### 5.3. Creation of Edge Cluster
+#### 5.3. Creation of Edge Cluster
 
 <details>
 <summary>"Click to expand"</summary>
