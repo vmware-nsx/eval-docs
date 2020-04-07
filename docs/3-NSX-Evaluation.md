@@ -9,7 +9,7 @@
 ---
 
 ### Overview
-Offer a "step by step" NSX Evaluation Guide to test (some) NSX Services:
+NSX-T Services evaluated in that Evaluation Guide:
 - Security Services
   - Micro-Segmentation (DFW)
 - Logical Networking Services
