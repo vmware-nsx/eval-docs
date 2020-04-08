@@ -1,6 +1,8 @@
 
 ## 2. Installation of NSX-T
 
+Disclaimer: The below install is a minimal installation intended for a lab environment only. We do not recommend below install in a live production environment.
+
 <p align="center">
   <img width=75% height=75% src="/docs/assets/Graphics/2.0.Installation-Design-1.jpg">
 </p>  
