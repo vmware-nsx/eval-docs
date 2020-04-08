@@ -36,57 +36,57 @@ xxx fix the link + add screenshot of VMware download.
 <details>
 <summary>"Click to expand"</summary>
 
-- From vCenter, deploy NSX-T Unified Appliance OVA.  
+- **From vCenter, deploy NSX-T Unified Appliance OVA.**  
 	<p align="center">
 	  <img width=25% height=25% src="/docs/assets/Graphics/2.2.step1.jpg">
 	</p>
 
-- Select OVF file.  
+- **Select OVF file.**  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step2.jpg">
 	</p>
 
-- Enter NSX-T Manager VM name + vCenter folder for VM.  
+- **Enter NSX-T Manager VM name + vCenter folder for VM.**  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step3.jpg">
 	</p>
 
-- Select ESXi to host NSX-T Manager.  
+- **Select ESXi to host NSX-T Manager.**  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step4.jpg">
 	</p>
 
-- Review NSX-T Manager VM details.  
+- **Review NSX-T Manager VM details.**  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step5.jpg">
 	</p>
 
-- Select NSX-T Manager VM size (Small).  
+- **Select NSX-T Manager VM size (Small).**  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step6.jpg">
 	</p>
 
-- Select storage for NSX-T Manager VM.  
+- **Select storage for NSX-T Manager VM.**  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step7.jpg">
 	</p>
 
-- Select VDS Port Group for NSX-T Manager management vNIC (vCenter Managament Port Group).  
+- **Select VDS Port Group for NSX-T Manager management vNIC (vCenter Managament Port Group).**  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step8.jpg">
 	</p>
 
-- Enter NSX-T Manager information (passwords, hostname, IP, DNS, NTP). Important: Rolename is "NSX Manager".  
+- **Enter NSX-T Manager information (passwords, hostname, IP, DNS, NTP). Important: Rolename is "NSX Manager".**  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step9.jpg">
 	</p>
 
-- Review NSX-T Manager VM settings.  
+- **Review NSX-T Manager VM settings.**  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step10.jpg">
 	</p>
 
-- Once NSX-T Manager deployment is finished, start the VM.  
+- **Once NSX-T Manager deployment is finished, start the VM.**  
 	<p align="center">
 	  <img width=40% height=40% src="/docs/assets/Graphics/2.2.step11.jpg">
 	</p>
@@ -98,20 +98,20 @@ xxx fix the link + add screenshot of VMware download.
 <details>
 <summary>"Click to expand"</summary>
 
-- Log on NSX-T Manager UI.  
+- **Log on NSX-T Manager UI.**  
 In a browser: https://192.168.50.5/.  
 	<p align="center">
 	  <img width=85% height=85% src="/docs/assets/Graphics/2.3.step1.jpg">
 	</p>
 
-- Configuration NSX-T Licence.  
+- **Configuration NSX-T Licence.**  
 Under "System - Settings - Licenses", click "Add".  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.3.step2.jpg">
 	</p>
 
 
-- Register NSX-T in vCenter (to allow the deplyment of NSX elements into vCenter/ESXi from NSX).  
+- **Register NSX-T in vCenter (to allow the deplyment of NSX elements into vCenter/ESXi from NSX).**  
 Under "System - Configuration - Fabric - Compute Managers", click "Add".  
 	<p align="center">
 	  <img width=50% height=50% src="/docs/assets/Graphics/2.3.step3a.jpg">
@@ -120,7 +120,7 @@ Under "System - Configuration - Fabric - Compute Managers", click "Add".
 	  <img width=40% height=40% src="/docs/assets/Graphics/2.3.step3b.jpg">
 	</p>
 
-- Validate NSX-T registration in vCenter.  
+- **Validate NSX-T registration in vCenter.**  
 Under "System - Configuration - Fabric - Compute Managers", click "Refresh" (bottom-left).
 	<p align="center">
 	  <img width=85% height=85% src="/docs/assets/Graphics/2.3.step4.jpg">
@@ -139,7 +139,7 @@ Under "System - Configuration - Fabric - Compute Managers", click "Refresh" (bot
 <details>
 <summary>"Click to expand"</summary>
 
-- Create New VDS-NSX (for future NSX-T Logical Switches).  
+- **Create New VDS-NSX (for future NSX-T Logical Switches).**  
 From vCenter, under "Networking", select the Data Center, and right-click to create a "New Distributed Switch".  
 *For this lab, see the top of page for "Number of uplinks (1)",  
 and "Default Port Group (none)".*  
@@ -159,7 +159,7 @@ and "Default Port Group (none)".*
 	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step5.jpg">
 	</p>  
 
-- Add that VDS-NSX to ESXi.  
+- **Add that VDS-NSX to ESXi.**  
 From vCenter, under "Networking", select the VDS-NSX, and right-click to "Add and Manage Hosts...".  
   	<p align="center">
 	  <img width=40% height=40% src="/docs/assets/Graphics/2.4.1.step6.jpg">
@@ -183,7 +183,7 @@ From vCenter, under "Networking", select the VDS-NSX, and right-click to "Add an
 	  <img width=70% height=70% src="/docs/assets/Graphics/2.4.1.step12.jpg">
 	</p>  
 
-- Configure that VDS-NSX with an large MTU (at least 1700).  
+- **Configure that VDS-NSX with an large MTU (at least 1700).**  
 From vCenter, under "Networking", select the VDS-NSX, and right-click to "Add and Manage Hosts...".  
   	<p align="center">
 	  <img width=40% height=40% src="/docs/assets/Graphics/2.4.1.step13.jpg">
@@ -200,7 +200,7 @@ From vCenter, under "Networking", select the VDS-NSX, and right-click to "Add an
 <details>
 <summary>"Click to expand"</summary>
 
-- Create Uplink Profile for Transport Nodes ("VLAN-Overlay + NIC" information for ESXis + Edge Node).  
+- **Create Uplink Profile for Transport Nodes ("VLAN-Overlay + NIC" information for ESXis + Edge Node).**  
 From NSX-T, under "System - Configuration - Fabric - Profiles - Uplink Profiles", click "Add".  
 *For this lab, see the top of page for VLAN for Overlay traffic information (12),  
 and number of uplinks for "VDS - NSX-T" information (1 NIC).*  
@@ -216,7 +216,7 @@ and number of uplinks for "VDS - NSX-T" information (1 NIC).*
 <details>
 <summary>"Click to expand"</summary>
 
-- Configure NSX-T for ESXi.  
+- **Configure NSX-T for ESXi.**  
   - Select each ESXi of vCenter-Cluster  
   Under "System - Configuration - Fabric - Node - Host Transport Nodes - Managed by", select "Lab-vCenter".  
   *Select Type = VDS (to enable NSX into the existing "VDS-NSX" vCenter Distributed Switch),  
@@ -228,7 +228,8 @@ and number of uplinks for "VDS - NSX-T" information (1 NIC).*
   	<p align="center">
 	  <img width=85% height=85% src="/docs/assets/Graphics/2.4.3.step1.jpg">
 	</p>   
-  - For each ESXi, configure its new "VDS - NSX-T"  
+
+  - **For each ESXi, configure its new "VDS - NSX-T"**  
   Click "Configure NSX".  
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.3.step2a.jpg">
@@ -236,7 +237,7 @@ and number of uplinks for "VDS - NSX-T" information (1 NIC).*
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.3.step2b.jpg">
 	</p>  
-  - For each ESXi, validate "VDS - NSX-T" creation.  
+  - **For each ESXi, validate "VDS - NSX-T" creation.**  
 
 	<p align="center">
 	  <img width=75% height=75% src="/docs/assets/Graphics/2.4.3.step3.jpg">
@@ -258,7 +259,7 @@ and number of uplinks for "VDS - NSX-T" information (1 NIC).*
 <details>
 <summary>"Click to expand"</summary>
 
-- Create a Port Group "All VLAN" (= VLAN Tag 0-4096) on VDS.  
+- **Create a Port Group "All VLAN" (= VLAN Tag 0-4096) on VDS.**  
 From vCenter, under "Networking", select the VDS-NSX, and right-click to "New Distributed Port Group...".
 *For this lab, see the top of page for this Port Group on VDS.*  
   	<p align="center">
@@ -281,7 +282,7 @@ From vCenter, under "Networking", select the VDS-NSX, and right-click to "New Di
 <details>
 <summary>"Click to expand"</summary>
 
-- Deploy 1 Edge Node on ESXi.  
+- **Deploy 1 Edge Node on ESXi.**  
 Under "System - Configuration - Fabric - Nodes - Edge Transport Nodes", click "Add Edge VM".  
 *Select Form Factor Medium (useful if you want to test later Load-Balancing),  
 enable SSH for admin and root if you want to try later deeper troubleshooting,  
@@ -306,7 +307,7 @@ Transport Zones = "nsx-overlay-transportzone" (default TZ for Overlay traffic) a
 	  <img width=85% height=85% src="/docs/assets/Graphics/2.5.2.step6.jpg">
 	</p>  
 
-- Validate Edge Node deployment.  
+- **Validate Edge Node deployment.**  
 Under "System - Configuration - Fabric - Nodes - Edge Transport Nodes", click "Refresh" (bottom UI)  
 	<p align="center">
 	  <img width=85% height=85% src="/docs/assets/Graphics/2.5.2.step7.jpg">
@@ -319,14 +320,14 @@ Under "System - Configuration - Fabric - Nodes - Edge Transport Nodes", click "R
 <details>
 <summary>"Click to expand"</summary>
 
-- Create 1 Edge Cluster with EdgeNode1 member.  
+- **Create 1 Edge Cluster with EdgeNode1 member.**  
 Under "System - Configuration - Fabric - Nodes - Edge Clusters", click "Add".  
 *Select EdgeNode1 as member of that Edge Cluster.*
 	<p align="center">
 	  <img width=50% height=50% src="/docs/assets/Graphics/2.5.3.step1.jpg">
 	</p>  
 
-- Validate Edge Cluster creation.  
+- **Validate Edge Cluster creation.**  
 Under "System - Configuration - Fabric - Nodes - Edge Clusters", click "Refresh".  
 	<p align="center">
 	  <img width=85% height=85% src="/docs/assets/Graphics/2.5.3.step2.jpg">
