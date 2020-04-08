@@ -25,9 +25,11 @@
 <details>
 <summary>"Click to expand"</summary>
 
-Download NSX-T 3.0 Manager for VMware ESXi OVA file [download link xxx](https://my.vmware.com/en/web/vmware/info/slug/networking_security/vmware_nsx_t_data_center/2_x)
+Download NSX-T 3.0 Manager for VMware ESXi OVA file [download link ](https://my.vmware.com/web/vmware/details?downloadGroup=NSX-T-300&productId=982&rPId=45015)
+<p align="center">
+  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step1.jpg">
+</p>
 
-xxx fix the link + add screenshot of VMware download.
 </details>
 
 ---
