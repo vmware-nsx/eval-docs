@@ -1,7 +1,7 @@
 
 ## 2. Installation of NSX-T
 
-Disclaimer: The below install is a minimal installation intended for a lab environment only. We do not recommend below install in a live production environment.
+*Disclaimer: The below install is a minimal installation intended for a lab environment only. We do not recommend below install in a live production environment.*
 
 <p align="center">
   <img width=75% height=75% src="/docs/assets/Graphics/2.0.Installation-Design-1.jpg">
@@ -31,6 +31,8 @@ Download NSX-T 3.0 Manager for VMware ESXi OVA file [download link ](https://my.
 <p align="center">
   <img width=75% height=75% src="/docs/assets/Graphics/2.1.step1.jpg">
 </p>
+
+*Note: NSX-T Evaluations are based on Limited export build (no IPSEC VPN, no HTTPS LB), with no transition path to the full version.*
 
 </details>
 
