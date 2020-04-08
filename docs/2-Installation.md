@@ -27,7 +27,7 @@
 
 Download NSX-T 3.0 Manager for VMware ESXi OVA file [download link ](https://my.vmware.com/web/vmware/details?downloadGroup=NSX-T-300&productId=982&rPId=45015)
 <p align="center">
-  <img width=75% height=75% src="/docs/assets/Graphics/2.2.step1.jpg">
+  <img width=75% height=75% src="/docs/assets/Graphics/2.1.step1.jpg">
 </p>
 
 </details>
