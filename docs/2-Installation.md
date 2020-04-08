@@ -250,7 +250,7 @@ and number of uplinks for "VDS - NSX-T" information (1 NIC).*
 
 ---
 
-### 5. Deployement of Edge Node
+### 5. Deployment of Edge Node
 
 
 <details>
