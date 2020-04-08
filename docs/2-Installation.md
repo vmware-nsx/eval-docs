@@ -104,6 +104,8 @@ Download NSX-T 3.0 Manager for VMware ESXi OVA file [download link ](https://my.
 <details>
 <summary>"Click to expand"</summary>
 
+*Note: NSX-T Manager requires few minutes to fully start and get all its services running.*
+
 - **Log on NSX-T Manager UI.**  
 In a browser: https://192.168.50.5/.  
 	<p align="center">
@@ -259,6 +261,8 @@ and number of uplinks for "VDS - NSX-T" information (1 NIC).*
 
 <details>
 <summary>"Click to expand"</summary>
+
+*Note: If you limit your Evaluation at [Security only (no Logical Network)](/docs/3.1-Security-Only.md) and not [Logical Network + Security](/docs/3.2-LogicalNetwork-Security.md) nor [Operation Tools](/docs/3.3-Operation-Tools.md), you don't need to deploy Edge Nodes.*
 
 #### 5.1. Creation of VDS Port Group "All VLAN"
 
