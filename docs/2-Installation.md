@@ -1,7 +1,7 @@
 
 ## 2. Installation of NSX-T
 
-Disclaimer: The below install is a minimal installation intended for a lab environment only. We do not recommend below install in a live production environment.
+*Disclaimer: The below install is a minimal installation intended for a lab environment only. We do not recommend below install in a live production environment.*
 
 <p align="center">
   <img width=75% height=75% src="/docs/assets/Graphics/2.0.Installation-Design-1.jpg">
@@ -31,6 +31,8 @@ Download NSX-T 3.0 Manager for VMware ESXi OVA file [download link ](https://my.
 <p align="center">
   <img width=75% height=75% src="/docs/assets/Graphics/2.1.step1.jpg">
 </p>
+
+*Note: NSX-T Evaluations are based on Limited export build (no IPSEC VPN, no HTTPS LB), with no transition path to the full version.*
 
 </details>
 
@@ -101,6 +103,8 @@ Download NSX-T 3.0 Manager for VMware ESXi OVA file [download link ](https://my.
 ### 3. Register NSX-T to vCenter
 <details>
 <summary>"Click to expand"</summary>
+
+*Note: NSX-T Manager requires few minutes to fully start and get all its services running.*
 
 - **Log on NSX-T Manager UI.**  
 In a browser: https://192.168.50.5/.  
@@ -257,6 +261,8 @@ and number of uplinks for "VDS - NSX-T" information (1 NIC).*
 
 <details>
 <summary>"Click to expand"</summary>
+
+*Note: If you limit your Evaluation at [Security only (no Logical Network)](/docs/3.1-Security-Only.md) and not [Logical Network + Security](/docs/3.2-LogicalNetwork-Security.md) nor [Operation Tools](/docs/3.3-Operation-Tools.md), you don't need to deploy Edge Nodes.*
 
 #### 5.1. Creation of VDS Port Group "All VLAN"
 

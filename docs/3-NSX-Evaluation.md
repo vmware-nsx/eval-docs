@@ -23,7 +23,7 @@ NSX-T Services evaluated in that Evaluation Guide:
 
 
 NSX offers many more services, such as Load Balancing, VPN, IDS, NSX Intelligence, Federation, etc.  
-Those are currenlty out of scope of that document.  
+Those are currently out of scope of that document.  
 
 Also to limit the ESXi/Storage requirements, this evaluation does not cover high-availability and only 1 element of each NSX component will be installed.
 
@@ -31,7 +31,7 @@ Also to limit the ESXi/Storage requirements, this evaluation does not cover high
 
 3. NSX Evaluation
    1. [Security only (no Logical Network)](/docs/3.1-Security-Only.md)
-   1. [Logical Network + Security](/docs/3.2-Logical%20Network%2BSecurity.md)
+   1. [Logical Network + Security](/docs/3.2-LogicalNetwork-Security.md)
    1. [Operation Tools](/docs/3.3-Operation-Tools.md)
 
 ---
