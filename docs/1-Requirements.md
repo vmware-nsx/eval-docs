@@ -43,20 +43,17 @@ Here are the requirements for NSX-T Evaluation.
 | Management | VLAN 11 | VLAN where Management is running (vCenter / ESXi-Mgt / future NSX-Mgr / future EdgeNode-Mgt) |
 | Overlay    | VLAN 12 | VLAN where future NSX Logical Switches Overlay will run in                                   |
 
-| Physical Router | VLAN      | IP                | MTU     |
-|:----------------|:----------|:------------------|:--------|
-| Management      | VLAN 11   | 192.168.50.1/24   | 1500    |
-| Overlay         | VLAN 12   | 192.168.51.1/24 * | 1700+ * |
-| Web             | VLAN 16   | 10.16.1.1/24      | 1500    |
-| External        | VLAN 3103 | 20.20.20.1/24     | 1500    |
+| Physical Router | VLAN      | IP                | MTU     | Note |
+|:----------------|:----------|:------------------|:--------|:-----|
+| Management      | VLAN 11   | 192.168.50.1/24   | 1500    | Step needed for [Installation of NSX](/docs/2-Installation.md)     |
+| Overlay         | VLAN 12   | 192.168.51.1/24 * | 1700+ * | Step needed for [Installation of NSX](/docs/2-Installation.md)     |
+| Web             | VLAN 16   | 10.16.1.1/24      | 1500    | Step needed for [NSX Evaluation - Security only (no Logical Network)](/docs/3.1-Security-Only.md)     |
+| External        | VLAN 3103 | 20.20.20.1/24     | 1500    | Step needed for [NSX Evaluation - Logical Network + Security](/docs/3.2-LogicalNetwork-Security.md)     |
 
 
 
 \* Since in this lab all Transport Nodes (ESXi / Edge Nodes) run the Overlay traffic in the same VLAN 12, there is actually requirement to have an IP and MTU 1700+ on the physical router.
 
-*Note:  
-In the section "3.1. Security only (no Logical Network)", VLAN Web + interface will be created on Physical Router.  
-In the section "3.2. Logical Network + Security", VLAN External + interface will be created on Physical Router.*  
 
 
 </details>
