@@ -52,7 +52,7 @@ Here are the requirements for NSX-T Evaluation.
 
 
 
-* Since in this lab all Transport Nodes (ESXi / Edge Nodes) run the Overlay traffic in the same VLAN 12, there is actually requirement to have an IP and MTU 1700+ on the physical router.
+\* Since in this lab all Transport Nodes (ESXi / Edge Nodes) run the Overlay traffic in the same VLAN 12, there is actually requirement to have an IP and MTU 1700+ on the physical router.
 
 *Note:  
 In the section "3.1. Security only (no Logical Network)", VLAN Web + interface will be created on Physical Router.  
