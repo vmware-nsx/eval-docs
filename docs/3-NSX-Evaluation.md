@@ -1,13 +1,6 @@
 
 ## 3. NSX Evaluation
 
-<p align="center">
-  <img width="292" height="172" src="/docs/assets/logo/NSX_Logo.jpeg">
-  <img width="200" height="200" src="/docs/assets/logo/For_Dummies.jpeg">
-</p>
-
----
-
 ### Overview
 NSX-T Services evaluated in that Evaluation Guide:
 - Security Services

@@ -1,13 +1,11 @@
 
 <p align="center">
-# DRAFT
 </p>
 
 # NSX-T - Evaluation Guide
 
 <p align="center">
   <img width="292" height="172" src="/docs/assets/logo/NSX_Logo.jpeg">
-  <img width="200" height="200" src="/docs/assets/logo/For_Dummies.jpeg">
 </p>
 
 ---
