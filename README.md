@@ -16,6 +16,7 @@
 The goal of this document is to offer a "step by step" NSX Evaluation Guide to test (some) NSX Services:
 - Security Services
   - Micro-Segmentation (DFW)
+  - Identity Firewall
 - Logical Networking Services
   - Logical Switching
   - Logical Routing (with distributed routing)
@@ -36,7 +37,7 @@ This document table of content is:
    1. [Security only (no Logical Network)](/docs/3.1-Security-Only.md)
    1. [Logical Network + Security](/docs/3.2-LogicalNetwork-Security.md)
    1. [Operation Tools](/docs/3.3-Operation-Tools.md)
-
+   1. [Other - Identity Firewall](/docs/3.4%20Security%20Identity%20Firewall.md)
 
 ---
 
