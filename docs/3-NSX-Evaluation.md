@@ -12,6 +12,7 @@
 NSX-T Services evaluated in that Evaluation Guide:
 - Security Services
   - Micro-Segmentation (DFW)
+  - Identity Firewall
 - Logical Networking Services
   - Logical Switching
   - Logical Routing (with distributed routing)
