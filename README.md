@@ -37,7 +37,7 @@ This document table of content is:
    1. [Security only (no Logical Network)](/docs/3.1-Security-Only.md)
    1. [Logical Network + Security](/docs/3.2-LogicalNetwork-Security.md)
    1. [Operation Tools](/docs/3.3-Operation-Tools.md)
-   1. [Other - Identity Firewall](/docs/3.4%20Security%20Identity%20Firewall.md)
+   1. [Other - Identity Firewall](/docs/3.4-Security-Identity-Firewall.md)
 
 ---
 
